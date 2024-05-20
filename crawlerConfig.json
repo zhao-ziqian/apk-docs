@@ -1,0 +1,36 @@
+{
+  "index_name": "all-docs",
+  "start_urls": [
+    {
+      "url": "http://docs.ark.online/",
+      "tags": ["product-docs"]
+    }
+  ],
+  "rateLimit": 8,
+  "maxDepth": 10,
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": ".collapsible:not(.collapsed) a h2",
+        "default_value": "Documentation"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "content": {
+        "selector": ".content p, .content li",
+        "default_value": "null"
+      }
+    }
+  },
+  "selectors_exclude": [
+    ".page-footer",
+    ".next-and-prev-link",
+    ".table-of-contents"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": ["tags", "type"]
+  },
+  "stop_urls": ["/$"],
+  "js_render": true
+}
