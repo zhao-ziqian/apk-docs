@@ -6,7 +6,7 @@
 
 在平台创建游戏后，菜单处点击ICP备案，选择对应游戏，开始小程序备案流程
 
-![img](https://arkimg.ark.online/(null)-20240520181111216.png)
+![img](https://cdn.233xyx.com/online/Fh1k2k5zh4E71716212086162.png)
 
 #### **备案类型**
 
