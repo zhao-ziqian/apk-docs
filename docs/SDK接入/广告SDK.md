@@ -1,4 +1,4 @@
-# 233联运广告对接文档
+# 233乐园广告SDK接入文档
 
 | 文档版本 | 修订日期   | 说明                                                         |
 | -------- | ---------- | ------------------------------------------------------------ |
@@ -12,21 +12,22 @@
 | v1.0.6   | 2022.01.11 | 1、添加关闭Banner广告的功能 2、添加开启或关闭个性化广告推荐的开关 |
 | v1.0.7   | 2022.07.12 | 修复部分bug提升稳定性                                        |
 
-SDK说明
+## SDK说明
 
-SDK开发者：北京龙威互动科技有限公司
+**SDK开发者：** 北京龙威互动科技有限公司
 
-SDK名称：233乐园广告SDK
+**SDK名称：** 233乐园广告SDK
 
-SDK主要功能：用于广告投放活动，包括广告展示、监测、归因及投放效果分析与优化功能，提供个性化推荐服务。
+**SDK主要功能：** 用于广告投放活动，包括广告展示、监测、归因及投放效果分析与优化功能，提供个性化推荐服务。
 
-**用户信息与隐私策略**
+### 用户信息与隐私策略
 
 **如果您是开发者，在为用户提供服务前请阅读** **[《233乐园广告SDK隐私政策》](../开发者协议/233乐园广告SDK隐私政策.md)** **与** **[《233乐园广告SDK合规使用说明》](../开发者协议/233乐园广告SDK合规使用说明.md)** **，了解SDK对个人信息收集范围、处理目的以及权限使用情况。请您向用户提供服务时，告知相关信息并取得用户同意。**
 
 **如果您是用户，请在使用我们的服务前阅读** **[《233乐园广告SDK隐私政策》](../开发者协议/233乐园广告SDK隐私政策.md)** **与** **[《233乐园广告SDK合规使用说明》](../开发者协议/233乐园广告SDK合规使用说明.md)** **，了解SDK对个人信息收集范围、处理目的以及权限使用情况。充分理解后再开始使用我们的服务。**
 
-1. **联运广告申请**
+## SDK接入
+###  参数申请
 
 请登录开发者后台，申请联运广告合作。 我们会返回给您以下参数：
 
@@ -36,30 +37,27 @@ SDK主要功能：用于广告投放活动，包括广告展示、监测、归�
 
 备注：关于联运合作，还可以接入登录和支付哦。
 
-2. **联运广告SDK接入**
 
-### **2.1** **SDK引用**
+### SDK集成
 
 下载[mpg-cm-v1.0.7.zip](https://cdn.233xyx.com/online/KXoWJSfSm9BH1705906632580.zip)解压并将mpg-cm-v1.0.7.aar文件复制到您项目Project/app/libs文件夹下。
 
 在您app的build.gradle中添加：
 
-```Bash
+```bash
 dependencies {
     ...
     implementation files('libs/mpg-cm-v1.0.7.aar')
 }
 ```
 
-unity游戏可直接使用压缩文件中的unity插件导入接口，无需单独拷贝aar
+`unity游戏可直接使用压缩文件中的unity插件导入接口，无需单独拷贝aar`
 
-### **2.2** **SDK使用**
-
-#### **2.2.1 初始化**
+### 初始化接口
 
 示例代码
 
-```Bash
+```java
 MetaAdApi.get().init(application, APP_KEY, new InitCallback() {
             @Override
             public void onInitSuccess() {
@@ -72,13 +70,14 @@ MetaAdApi.get().init(application, APP_KEY, new InitCallback() {
         });
 ```
 
-#### **2.2.2 播放视频广告（包含激励视频&全屏视频 两种广告样式）**
+### 视频广告接口
 
-示例代码
+视频广告包含激励视频&全屏视频两种广告样式
 
-pos: int值；平台申请的激励视频或全屏视频广告位ID
+示例代码 
 
-```Bash
+```java
+//pos: int值；平台申请的激励视频或全屏视频广告位ID
  MetaAdApi.get().showVideoAd(pos, new IAdCallback.IVideoIAdCallback() {
                 @Override
                 public void onAdShow() {
@@ -118,13 +117,12 @@ pos: int值；平台申请的激励视频或全屏视频广告位ID
             });
 ```
 
-#### **2.2.3播放插屏广告**
+### 插屏广告接口
 
-示例代码：
+示例代码： 
 
-pos: int值；平台申请的插屏类型广告位ID
-
-```Bash
+```java
+//pos: int值；平台申请的插屏类型广告位ID
 MetaAdApi.get().showInterstitialAd(pos, new IAdCallback() {
             @Override
             public void onAdShow() {
@@ -145,13 +143,14 @@ MetaAdApi.get().showInterstitialAd(pos, new IAdCallback() {
         });
 ```
 
-#### **2.2.4播放Banner广告（该广告类型暂停使用，不进行展示）**
+### Banner广告接口
 
-#### 示例代码：
+注意：该广告类型暂停使用，不进行展示
 
-#### pos: int值；平台申请的Banner类型广告位ID
+示例代码：
 
-```Bash
+```java
+//pos: int值；平台申请的Banner类型广告位ID
 MetaAdApi.get().showBannerAd(pos, new IAdCallback() {
             @Override
             public void onAdShow() {
@@ -172,36 +171,43 @@ MetaAdApi.get().showBannerAd(pos, new IAdCallback() {
         });
 ```
 
-#### **2.2.5 关闭Banner广告**
+### 关闭Banner广告
 
 示例代码：
 
-```Bash
+```java
 MetaAdApi.get().closeBannerAd();
 ```
 
-#### **2.2.6 广告个性化推荐开关**
+### 广告个性化推荐开关接口
 
 示例代码：
 
-isOpen: boolean值；true: 打开个性化开关；false: 关闭个性化开关；
 
-```Bash
-MetaAdApi.get().setPersonalRecommendAd(true);
+```java
+//isOpen: boolean值；true: 打开个性化开关；false: 关闭个性化开关；
+boolean isOpen = true;
+MetaAdApi.get().setPersonalRecommendAd(isOpen);
 ```
 
-### **2.3特殊说明**
+### 版本支持接口
 
 关于版本是否支持联运广告，除了在播放广告失败回调信息“version not support”外，还可以通过接口获取：
 
-```Bash
+```java
+
+//参数type位广告类型，该方法不支持检测Banner类型
+//取值：AdType.AD_TYPE_VIDEO  : 视频（激励&全屏）  
+//     AdType.AD_TYPE_INTERSTITIAL ：插屏  
+//
 if (MetaAdApi.get().isInSupportVersion(int type)) {
-    // 版本支持联运广告
-}
-type ： 测试的广告类型；
-    AdType.AD_TYPE_VIDEO  : 视频（激励&全屏）
-    AdType.AD_TYPE_INTERSTITIAL ：插屏    Banner不支持使用该方法判断
+    // 当前版本支持该广告类型
+} 
 ```
+
+`type` ：广告类型；
+
+    
 
 备注：
 
@@ -211,9 +217,9 @@ Banner广告只能在3.15.0.0以上的233乐园版本中才能展示（目前因
 
 请重新下载“自测工具”，使用最新的自测工具来测试新类型广告。
 
-#### **附录**
+### 错误码参考
 
-[mpg-cm-v1.0.7.zip](https://cdn.233xyx.com/online/s8IlNxxTtBDN1710760260537.zip)
+ 
 
 | 错误码 | 错误信息                          | 处理方案                                                     |
 | ------ | --------------------------------- | ------------------------------------------------------------ |
