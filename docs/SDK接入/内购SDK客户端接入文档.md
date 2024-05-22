@@ -1,52 +1,42 @@
-# 233乐园内购SDK Android对接文档
+# 233乐园内购SDK接入文档
 
-| SDK版本号 | 修订日期   | 说明                                                         |
-| --------- | ---------- | ------------------------------------------------------------ |
-| V2.1.7    | 2022/2/22  | 优化用户实名体验                                             |
-| V2.1.8    | 2022/3/8   | 1.修复录屏功能在android 30编译下打开崩溃问题2.优化录屏尺寸   |
-| V2.2.1    | 2022/4/18  | 1. 升级SDK UI2. 外部安装支持悬浮球账号切换功能3. 修复android12部分机器录屏会出现崩溃的情况 |
-| V2.2.4    | 2022/4/21  | 优化数据统计                                                 |
-| V2.2.5    | 2022/5/5   | 增加登录隐私协议、不同意将直接退出游戏                       |
-| V2.2.6    | 2022/5/18  | 1、修复点击问题反馈崩溃问题2、修正数据统计问题3、增加手机账号绑定功能 |
-| V2.2.7    | 2022/6/17  | 1、优化随机账号提示信息2、优化曝光获量埋点统计               |
-| V2.2.8    | 2022/7/11  | 修复线上报错，优化用户体验                                   |
-| V3.0.0    | 2022/8/18  | 1、增加消息中心模块2、内部功能优化，修复线上bug              |
+| SDK版本号 | 修订日期 | 说明 |
+| --------- | ---------- | ------- |
+| V3.0.0    | 2022/8/18  | 1、增加消息中心模块<br/>2、内部功能优化，修复线上bug              |
 | V3.0.1    | 2022/9/26  | 1、Bug修复                                                   |
-| V3.1.0    | 2022/11/15 | 1、新增金钻特权、礼包、优惠券、活动、乐币等功能2、优化充值UI界面3、优化悬浮球体验 |
-| V3.1.1    | 2022/12/15 | 1、修复验证码无法验证问题2、优化金钻会员展示门槛             |
-| V3.1.2    | 2023/2/22  | 1、 新增游戏圈2、 修复部分游戏优惠券列表滑动黑屏问题         |
-| V3.1.3    | 2023/4/4   | 1、 增加游戏退出接口2、 修复部分bug                          |
-| V3.1.4    | 2023/5/19  | 1、优化游戏乐园内退出策略2、修复部分bug                      |
+| V3.1.0    | 2022/11/15 | 1、新增金钻特权、礼包、优惠券、活动、乐币等功能<br/>2、优化充值UI界面<br/>3、优化悬浮球体验 |
+| V3.1.1    | 2022/12/15 | 1、修复验证码无法验证问题<br/>2、优化金钻会员展示门槛             |
+| V3.1.2    | 2023/2/22  | 1、 新增游戏圈<br/>2、 修复部分游戏优惠券列表滑动黑屏问题         |
+| V3.1.3    | 2023/4/4   | 1、 增加游戏退出接口<br/>2、 修复部分bug                          |
+| V3.1.4    | 2023/5/19  | 1、优化游戏乐园内退出策略<br/>2、修复部分bug                      |
 | V3.1.5    | 2023/6/2   | 1、修复android 5.0的版本证书TLS1.3不支持问题                 |
 | V3.1.6    | 2023/6/19  | 1、修复查看实名认证信息文案显示不对问题                      |
-| V3.1.7    | 2023/9/1   | 1、优化部分机型悬浮球触摸不到的问题  2、优化内部网络请求     |
+| V3.1.7    | 2023/9/1   | 1、优化部分机型悬浮球触摸不到的问题  <br/>2、优化内部网络请求     |
 | V3.1.8    | 2023/9/23  | 1、SDK初始化权限获取合规，去除IMEI,OAID                      |
 | V3.1.9    | 2023/10/25 | 1、SDK初始化权限获取合规,去掉IMSI获取                        |
 | V3.1.11   | 2023/12/7  | 1、SDK初始化新增cpid参数                                     |
-| V3.2.2    | 2024/1/3   | 1. 新增授权登录功能 2. 增加游戏云存档 3. 图片库glide升级至4.9 4. 新增阿里oss依赖 5. 移除GSON外部依赖 6. 代码混淆更新 |
-| V3.2.3    | 2024/2/26  | 1. SDK初始化方法参数变更 2. UI弹窗兼容适配 3. 代码混淆更新，增加部分代码混淆keep |
+| V3.2.2    | 2024/1/3   | 1. 新增授权登录功能 <br/>2. 增加游戏云存档 <br/>3. 图片库glide升级至4.9 <br/>4. 新增阿里oss依赖 <br/>5. 移除GSON外部依赖 <br/>6. 代码混淆更新 |
+| V3.2.3    | 2024/2/26  | 1. SDK初始化方法参数变更 <br/>2. UI弹窗兼容适配 <br/>3. 代码混淆更新，增加部分代码混淆keep |
 
-# SDK说明
+## SDK说明
 
-SDK开发者：北京龙威互动科技有限公司 
+**SDK开发者：** 北京龙威互动科技有限公司 
+**SDK名称：** 233乐园内购SDK
+**SDK主要功能：** 为接入的游戏提供233乐园账户登录、实名认证、防沉迷、充值、更新、游戏内容展示等功能。
 
-SDK名称：233乐园内购SDK 
-
-SDK主要功能：为接入的游戏提供233乐园账户登录、实名认证、防沉迷、充值、更新、游戏内容展示等功能。
-
-### **用户信息与隐私策略** 
+### 用户信息与隐私策略
 
 **如果您是开发者，在为用户提供服务前请阅读** **[《233乐园内购SDK隐私政策》](../开发者协议/233乐园内购SDK隐私政策.md)** **与** **[《233乐园内购SDK合规使用说明》](../开发者协议/233乐园内购SDK合规使用说明.md)** **，了解SDK对个人信息收集范围、处理目的以及权限使用情况。请您向用户提供服务时，告知相关信息并取得用户同意。** 
 
 **如果您是用户，请在使用我们的服务前阅读** **[《233乐园内购SDK隐私政策》](../开发者协议/233乐园内购SDK隐私政策.md)** **与** **[《233乐园内购SDK合规使用说明》](../开发者协议/233乐园内购SDK合规使用说明.md)** **，了解SDK对个人信息收集范围、处理目的以及权限使用情况。充分理解后再开始使用我们的服务。**
 
-1. ## SDK引用
+## SDK集成
 
-### 1.1 申请应用的appKey
+### 申请应用的appKey
 
 请联系我们申请应用的appKey。
 
-### 1.2 导入aar包
+### 导入aar包
 
 下载[mpg-pay-v3.2.3.zip](https://cdn.233xyx.com/online/U9ClTU9i2AsQ1709024016097.zip)解压并将**mpg-pay-\*.aar**复制到您项目Project/app/libs文件夹下。
 
@@ -66,7 +56,7 @@ dependencies {
 
 **说明：需要您的项目中依赖appcompat-v7的包**。
 
-如果您需要代码混淆，请在proguard-rules.pro文件（或其他混淆配置文件）中添加：
+如果您需要代码混淆，请在`proguard-rules.pro`文件（或其他混淆配置文件）中添加：
 
 ```Bash
 -dontoptimize
@@ -183,20 +173,22 @@ VALUES;
 }
 ```
 
-SDK编译使用android30编译，若游戏的编译环境低于android SDK 29的，需要在游戏的AndroidManifest.xml中添加以下配置方可编译通过，大等于android 29的可以跳过。
+`注意：SDK编译使用android30编译，若游戏的编译环境低于android SDK 29的，需要在游戏的AndroidManifest.xml中添加以下配置方可编译通过，大等于android 29的可以跳过。`
 
-```Bash
+```xml
  <service android:name="com.meta.android.mpg.assistant.feature.record.ScreenRecorderService"
             tools:node="replace" />
 ```
 
-1. ## SDK使用
+## SDK使用
 
-### 2.1 初始化
+### 初始化接口
 
 SDK初始化方法，调用后面的所有接口之前，请确保SDK初始化成功。
 
-```Bash
+接口说明:
+
+```java
 /**
 SDK初始化
 @param activity   当前页面的activity
@@ -209,7 +201,7 @@ public static void initMetaSdk(Activity activity, String appKey, String cpId, In
 
 初始化回调
 
-```Bash
+```java
 public interface InitCallback {
    /**
      * 初始化成功回调
@@ -226,7 +218,7 @@ public interface InitCallback {
 
 代码示例：
 
-```Bash
+```java
 public class GamePlayActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -247,11 +239,11 @@ public class GamePlayActivity extends Activity {
 }
 ```
 
-### 2.2 登录
+### 账号登录
 
-登录方法
+接口说明:
 
-```Bash
+```java
  /**
      * 登录
      * @param activity      应用当前页面
@@ -262,7 +254,7 @@ public class GamePlayActivity extends Activity {
 
 登录回调
 
-```Bash
+```java
 public interface LoginResultCallback {
     /**
      * 登录成功回调
@@ -280,9 +272,9 @@ public interface LoginResultCallback {
 }
 ```
 
-**UserInfo**描述:
+**UserInfo**类描述:
 
-```Bash
+```java
  public class UserInfo {
     public String uid;  //233用户uid
     public String sid;  //233用户sid
@@ -295,7 +287,7 @@ public interface LoginResultCallback {
 
 示例代码：
 
-```Bash
+```java
 MetaApi.login(activity, new LoginResultCallback() {
     @Override
     public void loginSuccess(UserInfo userInfo) {
@@ -325,25 +317,25 @@ MetaApi.login(activity, new LoginResultCallback() {
 | 19   | need real name              | 需要实名验证                     |
 | 20   | need login metaApp          | 游客账户，需要先登录233          |
 
-### 2.3 账号切换监听回调
+### 账号切换监听回调
 
 游戏方注册监听在233环境内账号切换的通知并处理账号切换后的业务逻辑，可在游戏退出时取消监听。
 
-注册监听方法
-
-```Bash
+接口说明：
+注册监听方法 
+```java
 public static void registerAccountChangedListener(AccountChangedListener listener)
 ```
 
 反注册监听方法
 
-```Bash
+```java
 public static void unregisterAccountChangedListener(AccountChangedListener listener)
 ```
 
 示例:
 
-```Bash
+```java
 private AccountChangedListener mAccountChangedListener = new AccountChangedListener() {
         @Override
         public void onAccountChanged(UserInfo userInfo) {
@@ -362,11 +354,11 @@ MetaApi.registerAccountChangedListener(mAccountChangedListener);
 MetaApi.unregisterAccountChangedListener(mAccountChangedListener);
 ```
 
-### 2.4 支付下单接口
+### 支付下单接口
 
-接口：
+接口说明：
 
-```Bash
+```java
     /**
      * 支付接口
      * @param activity       应用当前页面
@@ -378,7 +370,7 @@ MetaApi.unregisterAccountChangedListener(mAccountChangedListener);
 
 支付回调接口
 
-```Bash
+```java
 public interface PayResultCallback {
     /**
      * 支付结果回调
@@ -392,7 +384,7 @@ public interface PayResultCallback {
 
 支付参数
 
-```Bash
+```java
 public class PayInfo {
    /**
      * 游戏方订单号
@@ -423,7 +415,7 @@ public class PayInfo {
 
 代码示例：
 
-```Bash
+```java
 String cpOrderId = "cp订单号";
 //透传字段
 String extra = "123456test";
@@ -432,8 +424,8 @@ PayInfo payInfo = new PayInfo.Builder()
         .setProductCode("pCode0101") //商品编码
         .setProductName("10钻石") //商品名称
         .setPrice(1) //商品价格，单位(分)
-        .setProductCount(1) //商品数量，默认是1
-        .setCpExtra(extra)
+        .setProductCount(1) //商品数量，只能是1，
+        .setCpExtra(extra) 
         .build();
         
 MetaApi.pay(ActivityForTestLoginPay.this, payInfo, new PayResultCallback() {
@@ -453,7 +445,7 @@ MetaApi.pay(ActivityForTestLoginPay.this, payInfo, new PayResultCallback() {
 
  支付结果
 
-```Bash
+```java
 public class MetaPayResult {
     /**
      * 支付成功code
@@ -478,13 +470,13 @@ public class MetaPayResult {
 }
 ```
 
-### 2.5 实名认证
+### 实名认证
 
-#### 2.5.1 获取实名信息
+#### 获取实名信息
 
-方法说明
+接口说明：
 
-```Bash
+```java
 /**
  * 获取实名信息回调
  * @param useCache 是否使用缓存信息
@@ -495,7 +487,7 @@ public static void registerRealNameCall(boolean useCache, RealNameAuthentication
 
 代码示例
 
-```Bash
+```java
 MetaApi.registerRealNameCall(false, new RealNameAuthenticationCallback() {
     @Override
     public void realNameAuthenticationResult(RealNameResult result) {
@@ -506,7 +498,7 @@ MetaApi.registerRealNameCall(false, new RealNameAuthenticationCallback() {
 
 实名信息，回调结果RealNameResult
 
-```Bash
+```java
 public class RealNameResult{
     // 回调结果code，取值为后⾯的常量，只有200是成功
     private int resultCode;
@@ -530,7 +522,7 @@ public class RealNameResult{
 }
 ```
 
-RealNameResult的code和msg说明
+**RealNameResult的code和msg说明**
 
 | code | msg                      | 备注                              |
 | ---- | ------------------------ | --------------------------------- |
@@ -545,13 +537,13 @@ RealNameResult的code和msg说明
 | 9    |                          | 认证失败，其他错误，具体看msg信息 |
 | 10   | real name close          | 关闭认证页面                      |
 
-备注： return_code = 200时需要通过verifyStatus来校验是否已经实名。
+*备注： **return_code = 200** 时需要通过verifyStatus来校验是否已经实名。*
 
-#### 2.5.2 进行实名认证
+#### 进行实名认证
 
-方法说明
+接口说明：
 
-```Bash
+```java
 /**
  *发起实名认证请求
  *
@@ -564,7 +556,7 @@ public static void realNameAuth(String name, String cardNo, RealNameAuthenticati
 
 代码示例
 
-```Bash
+```java
 MetaApi.realNameAuth(name, cardNo, new RealNameAuthenticationCallback() {
     @Override
     public void realNameAuthenticationResult(RealNameResult result) {
@@ -577,11 +569,11 @@ MetaApi.realNameAuth(name, cardNo, new RealNameAuthenticationCallback() {
 
 备注：只需要校验return_code即可，return_code = 200时验证成功，return_code = 500时该用户已认证过，其他为认证失败。
 
-#### 2.5.3 打开实名认证页
+#### 打开实名认证页
 
-方法说明
+接口说明：
 
-```Bash
+```java
 /**
  * 打开实名认证页
  *
@@ -593,7 +585,7 @@ public static void showMetaRealNameActivity(Context context, RealNameAuthenticat
 
 代码示例
 
-```Bash
+```java
 MetaApi.showMetaRealNameActivity(RealNameActivity.this, new RealNameAuthenticationCallback() {
     @Override
     public void realNameAuthenticationResult(RealNameResult result) {
@@ -606,19 +598,19 @@ MetaApi.showMetaRealNameActivity(RealNameActivity.this, new RealNameAuthenticati
 
 备注：只需要校验return_code即可，return_code = 200时验证成功，return_code = 500时该用户已认证过，其他为认证失败。
 
-### 2.6 游戏退出接口
+### 游戏退出接口
 
 要退出游戏时需要调用SDK提供的退出游戏接口
 
-方法说明
+接口说明：
 
-```Bash
+```java
  public static void exitGame(Activity activity, OnExitCallback callback);
 ```
 
 代码示例
 
-```Bash
+```java
 MetaApi.exitGame(this, new OnExitCallback() {
             @Override
             public void exitGame() {
@@ -630,6 +622,6 @@ MetaApi.exitGame(this, new OnExitCallback() {
         });
 ```
 
-1. ## 备注
+## 备注
 
-具体用法可以参考DEMO[mpg-pay-v3.2.3.zip](https://cdn.233xyx.com/online/U9ClTU9i2AsQ1709024016097.zip)[mpg-pay-v3.2.3.zip](https://cdn.233xyx.com/online/uosXigV6ta4T1710760226047.zip)
+具体用法可以参考[DEMO](https://cdn.233xyx.com/online/U9ClTU9i2AsQ1709024016097.zip)
