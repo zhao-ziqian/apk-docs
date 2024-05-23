@@ -57,56 +57,44 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
     logo: 'https://wstatic-01-ali.233leyuan.com/xyc/metaverse-docs/kd-logo-black.svg',
     sidebar: [
       {
-        text: '编辑器',
-        collapsible: true,
-        collapsed: true,
+        text: '欢迎',
+        collapsible: false,
+        collapsed: false,
         items: [
-          { text: '编辑器窗口操作', link: '/Editor/EditorWindowsOperation.md' },
-          { text: 'Transform工具', link: '/Editor/TransformTool.md' },
           {
-            text: '画质级别模拟与设置',
-            link: '/Editor/GraphicsQualitySettings.md'
+            text: '文档目录',
+            link: 'docs/index.md'
           },
-          { text: '预制体功能说明', link: '/Editor/Prefabs.md' },
-          { text: '游戏断线重连', link: '/Editor/GameReconnection.md' },
-          { text: '绘制模式', link: '/Editor/DrawMode.md' },
-          { text: '场景管理与跳转', link: '/Editor/SceneAndTeleport.md' },
           {
-            text: '横竖屏&分辨率模拟',
-            link: '/Editor/ScreenOrientation&ResolutionSimulation.md'
+            text: '平台指引',
+            link: 'docs/平台指引.md'
           },
-          { text: '接入社交功能', link: '/Editor/UseMGS.md' },
-          { text: '角色编辑工具', link: '/Editor/CharacterEditor.md' },
           {
-            text: '自动裁剪规则与自定义裁剪距离',
-            link: '/Editor/AutomaticAndCustomizedCullDistance.md'
+            text: 'ICP备案',
+            link: 'docs/ICP备案申报指引.md'
+          },
+          {
+            text: '游戏备案申报指引',
+            link: 'docs/游戏备案申报指引.md'
           }
         ]
       }
     ],
-    siteTitle: '产品手册',
+    siteTitle: '开发者文档',
     nav: [
       {
-        text: '创作者',
-        link: 'https://portal.ark.online/'
+        text: '开发者平台',
+        link: 'https://dev.233leyuan.com/#/admin/my-game'
       },
       {
-        text: '教程',
-        link: 'https://learning.ark.online/'
-      },
-      {
-        text: 'API',
-        link: 'https://api-docs.ark.online/'
-      },
-      {
-        text: '论坛',
-        link: 'https://forum.ark.online/'
+        text: '233乐园',
+        link: 'https://www.233leyuan.com/'
       }
     ],
     socialLinks: [
-      // { link: 'https://github.com/prodigytech-doc/api-docs', icon: 'github' },
+      // { link: 'https://github.com/doc-ark-online/apk-docs', icon: 'github' },
       {
-        link: 'https://github.com/prodigytech-doc/product-docs/issues',
+        link: 'https://github.com/doc-ark-online/apk-docs/issues',
         icon: {
           svg: `<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect width="20" height="20" rx="10" fill="#676D77"/>
