@@ -10,7 +10,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = [
 
 export default defineConfigWithTheme<DefaultTheme.Config>({
   ignoreDeadLinks: true,
-  title: '开发者文档',
+  title: '文档',
   appearance: false,
   description: '开发者平台文档',
   outDir: '../dist',
@@ -176,7 +176,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
       { text: 'ICP备案申报指引', link: '/ICP备案申报指引.md' },
       { text: '游戏备案申报指引', link: '/游戏备案申报指引.md' }
     ],
-    siteTitle: '开发者文档',
+    siteTitle: '文档',
     nav: [
       {
         text: '开发者平台',
