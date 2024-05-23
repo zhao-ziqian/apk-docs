@@ -54,42 +54,38 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
     ]
   ],
   themeConfig: {
-    logo: 'https://cdn.233xyx.com/online/ggmememedcWz1716443452886.png',
+    logo: 'https://cdn.233xyx.com/online/dqHT5TsyRrWv1716446116296.png',
     sidebar: [
+      { text: '平台指引',  link: '平台指引.md'  },
       {
-        text: '欢迎',
-        link: '/index.md',
-        collapsible: false,
+        text: '账号注册',
+        collapsible: true,
         collapsed: false,
         items: [
-          {
-            text: '文档目录',
-            link: 'index.md'
-          },
-          {
-            text: '平台指引',
-            link: '平台指引.md'
-          }
-        ]
+          { text: '企业认证', link: '/操作指引/企业认证.md' },
+          { text: '认证材料', link: '/操作指引/准备材料.md' }
+         ]
       },
       {
         text: '操作指引',
         collapsible: true,
-        collapsed: true,
+        collapsed: false,
         items: [
-          { text: '企业认证', link: '/操作指引/企业认证.md' },
-          { text: '准备材料', link: '/操作指引/准备材料.md' },
           { text: '游戏测评', link: '/操作指引/游戏测评.md' },
           { text: '上架说明', link: '/操作指引/上架说明.md' },
-          { text: '联运游戏创建', link: '/操作指引/联运游戏创建.md' },
-          { text: '官包测试创建', link: '/操作指引/官包测试创建.md' },
+          {
+            text: '游戏创建',
+            items: [
+              { text: '联运游戏创建', link: '/操作指引/联运游戏创建.md' },
+              { text: '官包测试创建', link: '/操作指引/官包测试创建.md' }
+            ]
+          },
           { text: '游戏上传', link: '/操作指引/游戏上传.md' },
           { text: '游戏认领', link: '/操作指引/游戏认领.md' },
           { text: '新游预约', link: '/操作指引/新游预约.md' },
-          { text: '礼包码上传', link: '/操作指引/礼包码上传.md' },
+          { text: '游戏礼包', link: '/操作指引/礼包码上传.md' },
           { text: '合同签约', link: '/操作指引/合同签约.md' },
-          { text: '合同签约', link: '/操作指引/合同签约.md' },
-          { text: '兼容适配相关', link: '/操作指引/兼容适配相关.md' }
+          { text: '兼容适配', link: '/操作指引/兼容适配相关.md' }
          ]
       },
       {
@@ -97,22 +93,26 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
         collapsible: true,
         collapsed: true,
         items: [
-          { text: '内购游戏流程', link: '/内购游戏流程/内购游戏流程.md' },
-          {text: '内购游戏对接',link: '/内购游戏流程/内购游戏对接流程.md'},
+          { text: '内购游戏对接', link: '/内购游戏流程/内购游戏流程.md' },
           { text: '内购FAQ', link: '/内购游戏流程/内购FAQ.md' },
           { text: '备案识别码关联', link: '/内购游戏流程/备案识别码关联.md' },
           { text: '游戏运营相关', link: '/内购游戏流程/游戏运营相关.md' },
-          { text: '新游上线配套说明', link: '/内购游戏流程/新游上线前配套说明.md' },
           { text: '游戏测试申请', link: '/内购游戏流程/游戏测试申请.md' },
+          { text: '新游上线配套说明', link: '/内购游戏流程/新游上线前配套说明.md' },
           { text: '版本更新配套说明', link: '/内购游戏流程/版本更新配套说明.md' },
           { text: '常规资源申请说明', link: '/内购游戏流程/常规资源申请说明.md' },
-          { text: '签到活动', link: '/内购游戏流程/签到活动.md' },
-          { text: '综合活动', link: '/内购游戏流程/综合活动.md' },
-          { text: '代金券', link: '/内购游戏流程/代金券.md' },
-          { text: '社区活动', link: '/内购游戏流程/社区活动.md' },
-          { text: '礼包功能', link: '/内购游戏流程/礼包功能.md' },
-          { text: '申请活动', link: '/内购游戏流程/申请活动.md' },
-          { text: '预约活动', link: '/内购游戏流程/预约活动.md' }
+          {
+            text: '运营活动申请说明',
+            items: [
+              { text: '签到活动', link: '/内购游戏流程/签到活动.md' },
+              { text: '综合活动', link: '/内购游戏流程/综合活动.md' },
+              { text: '代金券', link: '/内购游戏流程/代金券.md' },
+              { text: '社区活动', link: '/内购游戏流程/社区活动.md' },
+              { text: '礼包功能', link: '/内购游戏流程/礼包功能.md' },
+              { text: '申请活动', link: '/内购游戏流程/申请活动.md' },
+              { text: '预约活动', link: '/内购游戏流程/预约活动.md' }
+            ]
+          }
         ]
       },
       {
@@ -134,14 +134,13 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
           { text: '实名认证', link: '/SDK接入/实名认证.md' },
           {
             text: '内购SDK',
-            link: '/SDK接入/内购SDK客户端接入文档.md'
+            items: [
+              { text: '内购SDK', link: '/SDK接入/内购SDK客户端接入文档.md' },
+              { text: '支付服务端接入',  link: '/SDK接入/支付服务端接入文档.md' },
+              { text: '开放平台鉴权', link: '/SDK接入/开放平台鉴权.md' },
+              { text: '用户校验', link: '/SDK接入/用户校验.md' },
+            ]
           },
-          {
-            text: '支付服务端接入',
-            link: '/SDK接入/支付服务端接入文档.md'
-          },
-          { text: '开放平台鉴权', link: '/SDK接入/开放平台鉴权.md' },
-          { text: '用户校验', link: '/SDK接入/用户校验.md' },
           { text: '广告SDK', link: '/SDK接入/广告SDK.md' }
         ]
       },
@@ -176,7 +175,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
       { text: 'ICP备案申报指引', link: '/ICP备案申报指引.md' },
       { text: '游戏备案申报指引', link: '/游戏备案申报指引.md' }
     ],
-    siteTitle: '开发者',
+    siteTitle: '文档中心',
     nav: [
       {
         text: '开发者平台',
