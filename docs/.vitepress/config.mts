@@ -60,7 +60,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
       {
         text: '账号注册',
         collapsible: true,
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: '企业认证', link: '/操作指引/企业认证.md' },
           { text: '认证材料', link: '/操作指引/准备材料.md' }
@@ -91,7 +91,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
       {
         text: '内购游戏流程',
         collapsible: true,
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: '内购游戏对接', link: '/内购游戏流程/内购游戏流程.md' },
           { text: '内购FAQ', link: '/内购游戏流程/内购FAQ.md' },
@@ -101,7 +101,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
       {
         text: '广告游戏流程',
         collapsible: true,
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: '广告游戏对接', link: '/广告游戏流程/广告游戏对接流程.md' },
           { text: '广告位申请', link: '/广告游戏流程/广告位申请.md' },
@@ -194,8 +194,20 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
     siteTitle: '文档中心',
     nav: [
       {
-        text: '开发者平台',
+        text: '我的游戏',
         link: 'https://dev.233leyuan.com/#/admin/my-game'
+      },
+      {
+        text: '游戏数据',
+        link: 'https://dev.233leyuan.com/#/admin/all-game-data'
+      },
+      {
+        text: '财务结算',
+        link: 'https://dev.233leyuan.com/#/admin/bill'
+      },
+      {
+        text: '福利配置',
+        link: 'https://dev.233leyuan.com/#/admin/welfare-introduction'
       },
       {
         text: '233乐园',
