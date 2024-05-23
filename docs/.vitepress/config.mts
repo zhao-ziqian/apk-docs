@@ -10,9 +10,9 @@ export const sidebar: DefaultTheme.Config['sidebar'] = [
 
 export default defineConfigWithTheme<DefaultTheme.Config>({
   ignoreDeadLinks: true,
-  title: '产品手册',
+  title: '开发者文档',
   appearance: false,
-  description: '开发者平台产品文档',
+  description: '开发者平台文档',
   outDir: '../dist',
   head: [
     [
