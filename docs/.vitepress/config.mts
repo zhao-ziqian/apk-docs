@@ -49,12 +49,12 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
       'link',
       {
         rel: 'icon',
-        href: 'https://wstatic-01-ali.233leyuan.com/xyc/metaverse-docs/tab-logo.png'
+        href: 'https://cdn.233xyx.com/online/CKuKtOyybKPQ1716443452384.png'
       }
     ]
   ],
   themeConfig: {
-    logo: 'https://wstatic-01-ali.233leyuan.com/xyc/metaverse-docs/kd-logo-black.svg',
+    logo: 'https://cdn.233xyx.com/online/ggmememedcWz1716443452886.png',
     sidebar: [
       {
         text: '欢迎',
