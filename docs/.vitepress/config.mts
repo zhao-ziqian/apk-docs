@@ -114,12 +114,12 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
         collapsible: true,
         collapsed: true,
         items: [
-          { text: '游戏测试申请', link: '/内购游戏流程/游戏测试申请.md' },
-          { text: '新游上线配套说明', link: '/内购游戏流程/新游上线前配套说明.md' },
-          { text: '版本更新配套说明', link: '/内购游戏流程/版本更新配套说明.md' },
-          { text: '常规资源申请说明', link: '/内购游戏流程/常规资源申请说明.md' },
+          { text: '游戏内测', link: '/内购游戏流程/游戏测试申请.md' },
+          { text: '新游上线', link: '/内购游戏流程/新游上线前配套说明.md' },
+          { text: '版本更新', link: '/内购游戏流程/版本更新配套说明.md' },
+          { text: '资源申请', link: '/内购游戏流程/常规资源申请说明.md' },
           {
-            text: '运营活动申请说明',
+            text: '运营活动',
             items: [
               { text: '签到活动', link: '/内购游戏流程/签到活动.md' },
               { text: '综合活动', link: '/内购游戏流程/综合活动.md' },
@@ -161,20 +161,30 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
           { text: '开发者隐私合规指南', link: '/开发者协议/开发者隐私合规指南.md' },
           { text: '违规处罚规定', link: '/开发者协议/违规处罚规定.md' },
           {
-            text: '233乐园内购SDK合规使用说明',
-            link: '/开发者协议/233乐园内购SDK合规使用说明.md'
+            text: '233乐园内购SDK',
+            items: [
+              {
+                text: '隐私政策',
+                link: '/开发者协议/233乐园内购SDK隐私政策.md'
+              },
+              {
+                text: '合规使用说明',
+                link: '/开发者协议/233乐园内购SDK合规使用说明.md'
+              }
+            ]
           },
           {
-            text: '233乐园内购SDK隐私政策',
-            link: '/开发者协议/233乐园内购SDK隐私政策.md'
-          },
-          {
-            text: '233乐园广告SDK隐私政策',
-            link: '/开发者协议/233乐园广告SDK隐私政策.md'
-          },
-          {
-            text: '233乐园广告SDK合规使用说明',
-            link: '/开发者协议/233乐园广告SDK合规使用说明.md'
+            text: '233乐园广告SDK',
+            items: [
+              {
+                text: '隐私政策',
+                link: '/开发者协议/233乐园广告SDK隐私政策.md'
+              },
+              {
+                text: '合规使用说明',
+                link: '/开发者协议/233乐园广告SDK合规使用说明.md'
+              }
+            ]
           }
         ]
       },
