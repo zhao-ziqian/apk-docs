@@ -58,27 +58,67 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
     sidebar: [
       {
         text: '欢迎',
+        link: '/index.md',
         collapsible: false,
         collapsed: false,
         items: [
           {
             text: '文档目录',
-            link: 'docs/index.md'
+            link: '../index.md'
           },
           {
             text: '平台指引',
-            link: 'docs/平台指引.md'
-          },
-          {
-            text: 'ICP备案',
-            link: 'docs/ICP备案申报指引.md'
-          },
-          {
-            text: '游戏备案申报指引',
-            link: 'docs/游戏备案申报指引.md'
+            link: '../平台指引.md'
           }
         ]
-      }
+      },
+      {
+        text: '操作指南',
+        collapsible: true,
+        collapsed: true,
+        items: [
+          { text: '物理对象', link: '/Physics/PhysicalObject.md' },
+          { text: '推进器', link: '/Physics/Propeller.md' }
+        ]
+      },
+      {
+        text: '内购游戏流程',
+        collapsible: true,
+        collapsed: true,
+        items: [
+          { text: '物理对象', link: '/Physics/PhysicalObject.md' },
+          { text: '推进器', link: '/Physics/Propeller.md' }
+        ]
+      },
+      {
+        text: '广告游戏流程',
+        collapsible: true,
+        collapsed: true,
+        items: [
+          { text: '物理对象', link: '/Physics/PhysicalObject.md' },
+          { text: '推进器', link: '/Physics/Propeller.md' }
+        ]
+      },
+      {
+        text: 'SDK接入',
+        collapsible: true,
+        collapsed: true,
+        items: [
+          { text: '物理对象', link: '/Physics/PhysicalObject.md' },
+          { text: '推进器', link: '/Physics/Propeller.md' }
+        ]
+      },
+      {
+        text: '开发者协议',
+        collapsible: true,
+        collapsed: true,
+        items: [
+          { text: '物理对象', link: '/Physics/PhysicalObject.md' },
+          { text: '推进器', link: '/Physics/Propeller.md' }
+        ]
+      },
+      { text: '游戏备案申报', link: '游戏备案申报指引.md' },
+      { text: 'ICP备案申报', link: 'ICP备案申报指引.md' }
     ],
     siteTitle: '开发者文档',
     nav: [
