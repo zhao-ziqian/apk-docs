@@ -69,7 +69,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
       {
         text: '操作指引',
         collapsible: true,
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: '游戏测评', link: '/操作指引/游戏测评.md' },
           { text: '上架说明', link: '/操作指引/上架说明.md' },
