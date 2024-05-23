@@ -64,11 +64,11 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
         items: [
           {
             text: '文档目录',
-            link: '../index.md'
+            link: 'index.md'
           },
           {
             text: '平台指引',
-            link: '../平台指引.md'
+            link: '平台指引.md'
           }
         ]
       },
