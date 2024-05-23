@@ -95,8 +95,25 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
         items: [
           { text: '内购游戏对接', link: '/内购游戏流程/内购游戏流程.md' },
           { text: '内购FAQ', link: '/内购游戏流程/内购FAQ.md' },
-          { text: '备案识别码关联', link: '/内购游戏流程/备案识别码关联.md' },
-          { text: '游戏运营相关', link: '/内购游戏流程/游戏运营相关.md' },
+          { text: '备案识别码关联', link: '/内购游戏流程/备案识别码关联.md' }
+        ]
+      },
+      {
+        text: '广告游戏流程',
+        collapsible: true,
+        collapsed: true,
+        items: [
+          { text: '广告游戏对接', link: '/广告游戏流程/广告游戏对接流程.md' },
+          { text: '广告位申请', link: '/广告游戏流程/广告位申请.md' },
+          { text: '广告规则', link: '/广告游戏流程/广告规则.md' },
+          { text: '广告FAQ', link: '/广告游戏流程/广告FAQ.md' }       
+        ]
+      },
+      {
+        text: '游戏运营',
+        collapsible: true,
+        collapsed: true,
+        items: [
           { text: '游戏测试申请', link: '/内购游戏流程/游戏测试申请.md' },
           { text: '新游上线配套说明', link: '/内购游戏流程/新游上线前配套说明.md' },
           { text: '版本更新配套说明', link: '/内购游戏流程/版本更新配套说明.md' },
@@ -116,17 +133,6 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
         ]
       },
       {
-        text: '广告游戏流程',
-        collapsible: true,
-        collapsed: true,
-        items: [
-          { text: '广告游戏对接', link: '/广告游戏流程/广告游戏对接流程.md' },
-          { text: '广告位申请', link: '/广告游戏流程/广告位申请.md' },
-          { text: '广告规则', link: '/广告游戏流程/广告规则.md' },
-          { text: '广告FAQ', link: '/广告游戏流程/广告FAQ.md' }       
-        ]
-      },
-      {
         text: 'SDK接入',
         collapsible: true,
         collapsed: true,
@@ -135,10 +141,10 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
           {
             text: '内购SDK',
             items: [
-              { text: '内购SDK', link: '/SDK接入/内购SDK客户端接入文档.md' },
+              { text: '客户端接入', link: '/SDK接入/内购SDK客户端接入文档.md' },
               { text: '支付服务端接入',  link: '/SDK接入/支付服务端接入文档.md' },
               { text: '开放平台鉴权', link: '/SDK接入/开放平台鉴权.md' },
-              { text: '用户校验', link: '/SDK接入/用户校验.md' },
+              { text: '用户校验', link: '/SDK接入/用户校验.md' }
             ]
           },
           { text: '广告SDK', link: '/SDK接入/广告SDK.md' }
