@@ -20,15 +20,17 @@
 
 ## SDK说明
 
-**SDK开发者：** 北京龙威互动科技有限公司 
+**SDK开发者：** 北京龙威互动科技有限公司
+
 **SDK名称：** 233乐园内购SDK
+
 **SDK主要功能：** 为接入的游戏提供233乐园账户登录、实名认证、防沉迷、充值、更新、游戏内容展示等功能。
 
 ### 用户信息与隐私策略
 
-**如果您是开发者，在为用户提供服务前请阅读** **[《233乐园内购SDK隐私政策》](../开发者协议/233乐园内购SDK隐私政策.md)** **与** **[《233乐园内购SDK合规使用说明》](../开发者协议/233乐园内购SDK合规使用说明.md)** **，了解SDK对个人信息收集范围、处理目的以及权限使用情况。请您向用户提供服务时，告知相关信息并取得用户同意。** 
+如果您是开发者，在为用户提供服务前请阅读 **[《233乐园内购SDK隐私政策》](../开发者协议/233乐园内购SDK隐私政策.md) 与 [《233乐园内购SDK合规使用说明》](../开发者协议/233乐园内购SDK合规使用说明.md)**，了解SDK对个人信息收集范围、处理目的以及权限使用情况。请您向用户提供服务时，告知相关信息并取得用户同意。
 
-**如果您是用户，请在使用我们的服务前阅读** **[《233乐园内购SDK隐私政策》](../开发者协议/233乐园内购SDK隐私政策.md)** **与** **[《233乐园内购SDK合规使用说明》](../开发者协议/233乐园内购SDK合规使用说明.md)** **，了解SDK对个人信息收集范围、处理目的以及权限使用情况。充分理解后再开始使用我们的服务。**
+如果您是用户，请在使用我们的服务前阅读 **[《233乐园内购SDK隐私政策》](../开发者协议/233乐园内购SDK隐私政策.md) 与 [《233乐园内购SDK合规使用说明》](../开发者协议/233乐园内购SDK合规使用说明.md)**，了解SDK对个人信息收集范围、处理目的以及权限使用情况。充分理解后再开始使用我们的服务。
 
 ## SDK集成
 
@@ -54,7 +56,9 @@ dependencies {
 }
 ```
 
-**说明：需要您的项目中依赖appcompat-v7的包**。
+::: danger 注意
+需要您的项目中依赖appcompat-v7的包。
+:::
 
 如果您需要代码混淆，请在`proguard-rules.pro`文件（或其他混淆配置文件）中添加：
 
@@ -173,7 +177,7 @@ VALUES;
 }
 ```
 
-`注意：SDK编译使用android30编译，若游戏的编译环境低于android SDK 29的，需要在游戏的AndroidManifest.xml中添加以下配置方可编译通过，大等于android 29的可以跳过。`
+> 注意：SDK编译使用android30编译，若游戏的编译环境低于android SDK 29的，需要在游戏的AndroidManifest.xml中添加以下配置方可编译通过，大等于android 29的可以跳过。
 
 ```xml
  <service android:name="com.meta.android.mpg.assistant.feature.record.ScreenRecorderService"
@@ -186,7 +190,7 @@ VALUES;
 
 SDK初始化方法，调用后面的所有接口之前，请确保SDK初始化成功。
 
-接口说明:
+**接口说明:**
 
 ```java
 /**
@@ -199,7 +203,7 @@ SDK初始化
 public static void initMetaSdk(Activity activity, String appKey, String cpId, InitCallback callback);
 ```
 
-初始化回调
+**初始化回调**
 
 ```java
 public interface InitCallback {
@@ -216,7 +220,7 @@ public interface InitCallback {
 }
 ```
 
-代码示例：
+**代码示例：**
 
 ```java
 public class GamePlayActivity extends Activity {
@@ -241,7 +245,7 @@ public class GamePlayActivity extends Activity {
 
 ### 账号登录
 
-接口说明:
+**接口说明:**
 
 ```java
  /**
@@ -252,7 +256,7 @@ public class GamePlayActivity extends Activity {
     public static void login(Activity activity, LoginResultCallback callback);
 ```
 
-登录回调
+**登录回调**
 
 ```java
 public interface LoginResultCallback {
@@ -285,7 +289,7 @@ public interface LoginResultCallback {
 }
 ```
 
-示例代码：
+**示例代码：**
 
 ```java
 MetaApi.login(activity, new LoginResultCallback() {
@@ -302,7 +306,7 @@ MetaApi.login(activity, new LoginResultCallback() {
 });
 ```
 
-登录失败码说明：
+**登录失败码说明：**
 
 | code | msg                         | 说明                             |
 | ---- | --------------------------- | -------------------------------- |
@@ -321,8 +325,10 @@ MetaApi.login(activity, new LoginResultCallback() {
 
 游戏方注册监听在233环境内账号切换的通知并处理账号切换后的业务逻辑，可在游戏退出时取消监听。
 
-接口说明：
+**接口说明：**
+
 注册监听方法 
+
 ```java
 public static void registerAccountChangedListener(AccountChangedListener listener)
 ```
@@ -356,7 +362,7 @@ MetaApi.unregisterAccountChangedListener(mAccountChangedListener);
 
 ### 支付下单接口
 
-接口说明：
+**接口说明:**
 
 ```java
     /**
@@ -368,7 +374,7 @@ MetaApi.unregisterAccountChangedListener(mAccountChangedListener);
  public static void pay(Activity activity, PayInfo payInfo, PayResultCallback payCallback) 
 ```
 
-支付回调接口
+**支付回调接口:**
 
 ```java
 public interface PayResultCallback {
@@ -382,7 +388,7 @@ public interface PayResultCallback {
 }
 ```
 
-支付参数
+**支付参数:**
 
 ```java
 public class PayInfo {
@@ -413,7 +419,7 @@ public class PayInfo {
 }
 ```
 
-代码示例：
+**代码示例:**
 
 ```java
 String cpOrderId = "cp订单号";
@@ -443,7 +449,7 @@ MetaApi.pay(ActivityForTestLoginPay.this, payInfo, new PayResultCallback() {
 });
 ```
 
- 支付结果
+** 支付结果:**
 
 ```java
 public class MetaPayResult {
@@ -474,7 +480,7 @@ public class MetaPayResult {
 
 #### 获取实名信息
 
-接口说明：
+**接口说明：**
 
 ```java
 /**
@@ -485,7 +491,7 @@ public class MetaPayResult {
 public static void registerRealNameCall(boolean useCache, RealNameAuthenticationCallback callback);
 ```
 
-代码示例
+**代码示例**
 
 ```java
 MetaApi.registerRealNameCall(false, new RealNameAuthenticationCallback() {
@@ -496,7 +502,7 @@ MetaApi.registerRealNameCall(false, new RealNameAuthenticationCallback() {
 });
 ```
 
-实名信息，回调结果RealNameResult
+**实名信息**，回调结果RealNameResult
 
 ```java
 public class RealNameResult{
@@ -537,11 +543,11 @@ public class RealNameResult{
 | 9    |                          | 认证失败，其他错误，具体看msg信息 |
 | 10   | real name close          | 关闭认证页面                      |
 
-*备注： **return_code = 200** 时需要通过verifyStatus来校验是否已经实名。*
+> 备注： **return_code = 200** 时需要通过verifyStatus来校验是否已经实名。
 
 #### 进行实名认证
 
-接口说明：
+**接口说明：**
 
 ```java
 /**
@@ -554,7 +560,7 @@ public class RealNameResult{
 public static void realNameAuth(String name, String cardNo, RealNameAuthenticationCallback callback);
 ```
 
-代码示例
+**代码示例**
 
 ```java
 MetaApi.realNameAuth(name, cardNo, new RealNameAuthenticationCallback() {
@@ -567,11 +573,11 @@ MetaApi.realNameAuth(name, cardNo, new RealNameAuthenticationCallback() {
 });
 ```
 
-备注：只需要校验return_code即可，return_code = 200时验证成功，return_code = 500时该用户已认证过，其他为认证失败。
+> 备注：只需要校验return_code即可，return_code = 200时验证成功，return_code = 500时该用户已认证过，其他为认证失败。
 
 #### 打开实名认证页
 
-接口说明：
+**接口说明：**
 
 ```java
 /**
@@ -583,7 +589,7 @@ MetaApi.realNameAuth(name, cardNo, new RealNameAuthenticationCallback() {
 public static void showMetaRealNameActivity(Context context, RealNameAuthenticationCallback callback) ;
 ```
 
-代码示例
+**代码示例**
 
 ```java
 MetaApi.showMetaRealNameActivity(RealNameActivity.this, new RealNameAuthenticationCallback() {
@@ -596,19 +602,19 @@ MetaApi.showMetaRealNameActivity(RealNameActivity.this, new RealNameAuthenticati
 });
 ```
 
-备注：只需要校验return_code即可，return_code = 200时验证成功，return_code = 500时该用户已认证过，其他为认证失败。
+> 备注：只需要校验return_code即可，return_code = 200时验证成功，return_code = 500时该用户已认证过，其他为认证失败。
 
 ### 游戏退出接口
 
 要退出游戏时需要调用SDK提供的退出游戏接口
 
-接口说明：
+**接口说明：**
 
 ```java
  public static void exitGame(Activity activity, OnExitCallback callback);
 ```
 
-代码示例
+**代码示例**
 
 ```java
 MetaApi.exitGame(this, new OnExitCallback() {
@@ -622,6 +628,4 @@ MetaApi.exitGame(this, new OnExitCallback() {
         });
 ```
 
-## 备注
-
-具体用法可以参考[DEMO](https://cdn.233xyx.com/online/U9ClTU9i2AsQ1709024016097.zip)
+## 具体用法可以参考[DEMO](https://cdn.233xyx.com/online/U9ClTU9i2AsQ1709024016097.zip)
