@@ -71,6 +71,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
         collapsible: true,
         collapsed: true,
         items: [
+          { text: '更新日志', link: '/开发者平台功能更新.md' },
           { text: '游戏测评', link: '/操作指引/游戏测评.md' },
           { text: '上架说明', link: '/操作指引/上架说明.md' },
           {
