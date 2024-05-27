@@ -78,7 +78,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
             text: '游戏创建',
             items: [
               { text: '联运游戏创建', link: '/operate/intermodal_games.md' },
-              { text: '官包测试创建', link: '/operate/官包测试创建.md' }
+              { text: '官包测试创建', link: '/operate/official_test.md' }
             ]
           },
           { text: '游戏上传', link: '/operate/game_upload.md' },
@@ -189,7 +189,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
           }
         ]
       },
-      { text: 'ICP', link: '/ICP.md' },
+      { text: 'ICP备案申报指引', link: '/ICP.md' },
       { text: '游戏备案申报指引', link: '/filing.md' }
     ],
     siteTitle: '文档中心',
