@@ -10,7 +10,7 @@
 
 **Content-Type:** `APPLICATION/JSON`
 
-**Header信息：** **[查看header参数规则](./开放平台鉴权.md)**
+**Header信息：** **[查看header参数规则](./open_platform_authentication.md)**
 
 **请求参数：**
 
