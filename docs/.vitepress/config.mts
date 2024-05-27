@@ -81,6 +81,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
               { text: '官包测试创建', link: '/operate/official_test.md' }
             ]
           },
+          { text: '自测工具', link: '/operate/test_tools.md' },
           { text: '游戏上传', link: '/operate/game_upload.md' },
           { text: '游戏认领', link: '/operate/game_claim.md' },
           { text: '新游预约', link: '/operate/game_reservation.md' },
