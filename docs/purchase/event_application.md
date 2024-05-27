@@ -20,11 +20,13 @@
 
 **商务邮箱：**
 
-    宋晨：[chen.song@appshahe.com](mailto:chen.song@appshahe.com)
+李俊东：[jundong.li@appshahe.com](mailto:jundong.li@appshahe.com)
 
-    李俊东：[jundong.li@appshahe.com](mailto:jundong.li@appshahe.com)
+郭冰：[bing.guo@appshahe.com](bing.guo@appshahe.com)
 
-    马莹：[ying.ma@appshahe.com](mailto:ying.ma@appshahe.com)
+吴琦：[qi.wu@appshahe.com](qi.wu@appshahe.com)
+
+赵祺：[qi.zhao@appshahe.com](qi.zhao@appshahe.com)
 
 **邮件格式如下：**
 
