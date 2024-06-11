@@ -19,11 +19,9 @@
 
 ## SDK
 
-为了保证统一的用户体验，我们要求所有的联运网游均使用233SDK（版本号v1.3.0）
+为了保证统一的用户体验，我们要求所有的联运网游均使用233SDK，[联运SDK文件](https://doc.233leyuan.com/SDK/client_access.html)。
 
-> **联运SDK文件**：[mpg-pay-v1.3.0.rar](https://cdn.233xyx.com/1627799882726_290.rar) demo: [MetaPlayGameServiceDemo.rar](https://developercenter.233leyuan.com/file/1b9cf253152c4aa5854ccf554a4c6a97.rar)
-
-在查看以下部分内容前，请确保您已经认真阅读了联运SDK文档中的《客户端文档》和《服务端文档》。233SDK主要包含帐号和支付两部分
+> 在查看以下部分内容前，请确保您已经认真阅读了联运SDK文档中的《客户端文档》和《服务端文档》。233SDK主要包含帐号和支付两部分
 
 **A. 接入准备：** 新游接入前，请先确认已获取参数appkey和appsecret（游戏唯一识别），并切记要填写回调地址，否则充值无法到账。
 
