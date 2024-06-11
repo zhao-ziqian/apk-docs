@@ -40,7 +40,7 @@
 
 ### SDK集成
 
-下载[mpg-cm-v1.0.7.zip](https://cdn.233xyx.com/online/KXoWJSfSm9BH1705906632580.zip)解压并将mpg-cm-v1.0.7.aar文件复制到您项目Project/app/libs文件夹下。
+下载[mpg-cm-v1.0.7.zip](https://cdn.233xyx.com/online/RQGdBCBNb6L01718077636956.zip)解压并将mpg-cm-v1.0.7.aar文件复制到您项目Project/app/libs文件夹下。
 
 在您app的build.gradle中添加：
 
