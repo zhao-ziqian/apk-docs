@@ -190,8 +190,15 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
           }
         ]
       },
-      { text: 'ICP备案申报指引', link: '/ICP.md' },
-      { text: '游戏备案申报指引', link: '/filing.md' }
+      {
+        text: '备案申报指引',
+        collapsible: true,
+        collapsed: true,
+        items: [
+          { text: 'ICP备案', link: '/ICP.md' },
+          { text: '游戏备案', link: '/filing.md' }
+        ]
+      }
     ],
     siteTitle: '文档中心',
     nav: [
