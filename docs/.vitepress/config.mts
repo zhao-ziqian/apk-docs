@@ -55,8 +55,39 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
   ],
   themeConfig: {
     logo: 'https://cdn.233xyx.com/online/dqHT5TsyRrWv1716446116296.png',
+    algolia: {
+      appId: 'I2PHYUBLCN',
+      apiKey: '78ac86e74b310228cbab71c6b8a81272',
+      indexName: 'docs-apk',
+      // indexName: 'api-docs_prodigytech',
+      project: {
+        active: 'product-docs',
+        arr: [
+          // {
+          //   key: 'api-docs',
+          //   facetFilters: ['tags:api-docs'],
+          //   name: 'API文档'
+          // },
+          {
+            key: 'product-docs',
+            // facetFilters: ['tags:apk-docs'],
+            name: '产品手册'
+          }
+          // {
+          //   key: 'learning-docs',
+          //   facetFilters: ['tags:learning-docs'],
+          //   name: '教程文档'
+          // },
+          // {
+          //   name: '论坛',
+          //   url: 'https://forum.ark.online/search.php?searchsubmit=yes&mod=forum&srchtxt='
+          // }
+        ]
+      },
+      searchPage: 'https://search.ark.online/#/search'
+    },
     sidebar: [
-      { text: '平台指引',  link: 'guide.md'  },
+      { text: '平台指引', link: 'guide.md' },
       {
         text: '账号注册',
         collapsible: true,
@@ -64,7 +95,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
         items: [
           { text: '企业认证', link: '/operate/enterprise_certification.md' },
           { text: '认证材料', link: '/operate/prepare_materials.md' }
-         ]
+        ]
       },
       {
         text: '操作指引',
@@ -88,7 +119,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
           { text: '游戏礼包', link: '/operate/gift_code.md' },
           { text: '合同签约', link: '/operate/contract_signing.md' },
           { text: '兼容适配', link: '/operate/compatible.md' }
-         ]
+        ]
       },
       {
         text: '内购游戏流程',
@@ -97,7 +128,10 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
         items: [
           { text: '内购游戏对接', link: '/purchase/purchase_process.md' },
           { text: '内购FAQ', link: '/purchase/purchase_FAQ.md' },
-          { text: '备案识别码关联', link: '/purchase/registration_identification_code.md' }
+          {
+            text: '备案识别码关联',
+            link: '/purchase/registration_identification_code.md'
+          }
         ]
       },
       {
@@ -108,7 +142,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
           { text: '广告游戏对接', link: '/advertise/Advertising_process.md' },
           { text: '广告位申请', link: '/advertise/Advertising_application.md' },
           { text: '广告规则', link: '/advertise/Advertising_rules.md' },
-          { text: '广告FAQ', link: '/advertise/Advertising_FAQ.md' }       
+          { text: '广告FAQ', link: '/advertise/Advertising_FAQ.md' }
         ]
       },
       {
@@ -144,8 +178,11 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
             text: '内购SDK',
             items: [
               { text: '客户端接入', link: '/SDK/client_access.md' },
-              { text: '支付服务端接入',  link: '/SDK/server_access.md' },
-              { text: '开放平台鉴权', link: '/SDK/open_platform_authentication.md' },
+              { text: '支付服务端接入', link: '/SDK/server_access.md' },
+              {
+                text: '开放平台鉴权',
+                link: '/SDK/open_platform_authentication.md'
+              },
               { text: '用户校验', link: '/SDK/user_verification.md' }
             ]
           },
@@ -160,7 +197,10 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
           { text: '平台隐私政策', link: '/protocol/平台隐私政策.md' },
           { text: '开发者服务协议', link: '/protocol/开发者服务协议.md' },
           { text: '安全评估报告', link: '/protocol/安全评估报告.md' },
-          { text: '开发者隐私合规指南', link: '/protocol/开发者隐私合规指南.md' },
+          {
+            text: '开发者隐私合规指南',
+            link: '/protocol/开发者隐私合规指南.md'
+          },
           { text: '违规处罚规定', link: '/protocol/违规处罚规定.md' },
           {
             text: '233乐园内购SDK',
