@@ -17,6 +17,7 @@
 | V3.1.11   | 2023/12/7  | 1、SDK初始化新增cpid参数                                     |
 | V3.2.2    | 2024/1/3   | 1. 新增授权登录功能 <br/>2. 增加游戏云存档 <br/>3. 图片库glide升级至4.9 <br/>4. 新增阿里oss依赖 <br/>5. 移除GSON外部依赖 <br/>6. 代码混淆更新 |
 | V3.2.3    | 2024/2/26  | 1. SDK初始化方法参数变更 <br/>2. UI弹窗兼容适配 <br/>3. 代码混淆更新，增加部分代码混淆keep |
+| V3.2.4    | 2024/6/18  | 1. 增加适龄登录限制 <br/>2. 优化http请求超时 <br/>3. 部分机器UI变形适配优化 |
 
 ## SDK说明
 
@@ -40,7 +41,7 @@
 
 ### 导入aar包
 
-下载[mpg-pay-v3.2.3.zip](https://cdn.233xyx.com/online/vpY3crZsizVc1718077602033.zip)解压并将**mpg-pay-\*.aar**复制到您项目Project/app/libs文件夹下。
+下载[mpg-pay-v3.2.4.zip](https://cdn.233xyx.com/online/2nboLXaYiM121718680277834.zip)解压并将**mpg-pay-\*.aar**复制到您项目Project/app/libs文件夹下。
 
 在您app的build.gradle中添加：
 
@@ -48,7 +49,7 @@
 dependencies {
     ...
     implementation 'com.android.support:appcompat-v7:28.0.0'
-    implementation files('libs/mpg-pay-v3.2.3.aar')
+    implementation files('libs/mpg-pay-v3.2.4.aar')
     
     //SDK所需的第三方依赖
     implementation 'com.github.bumptech.glide:glide:4.9.0'    
@@ -153,8 +154,6 @@ VALUES;
 -dontwarn org.apache.commons.codec.binary.**
 
 
-# messagesdk
--keep class com.cloudplay.messagesdk.**{ *;}
 -keep class sun.misc.Unsafe { *; }
 
 -keepclassmembers enum * { # 保持枚举 enum 类不被混淆
