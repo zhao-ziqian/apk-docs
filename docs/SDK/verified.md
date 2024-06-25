@@ -12,14 +12,13 @@
 | ------ | ------------------------------------------------------------ |
 | cpid   | 开放平台的cpid                                                       |
 | appKey | 开发者平台获取appkey                                              |
-| gid    | 游戏id,找运营获取                                                     |
-| userId | 用户id                                                       |
-| digest | 摘要（cpid、appKey、gid、userId、appSecret，等参数合并后的md5） |
+| userId | 玩家的uid                                                       |
+| digest | 摘要（cpid、appKey、userId、appSecret，等参数合并后的md5） |
 
 ## digest的计算方法
 
 ```java
-String content = cpid + appKey + gid + userId + appSecret;
+String content = cpid + appKey + userId + appSecret;
 
 String md5 = DigestUtils.md5DigestAsHex(content.getBytes());
 ```
