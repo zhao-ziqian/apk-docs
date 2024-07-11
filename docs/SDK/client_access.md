@@ -176,8 +176,8 @@ VALUES;
 }
 ```
 
-::: danger
-注意：SDK编译使用android30编译，若游戏的编译环境低于android SDK 29的，需要在游戏的AndroidManifest.xml中添加以下配置方可编译通过。
+::: danger 注意  
+SDK编译使用android30编译，若游戏的编译环境低于android SDK 29的，需要在游戏的AndroidManifest.xml中添加以下配置方可编译通过。
 高于29的请保持aar里面的配置不变，避免崩溃 `java.lang.SecurityException: Media projections require a foreground service of type ServiceInfo.FOREGROUND_SERVICE_TYPE_MEDIA_PROJECTION`
 ::: 
 
