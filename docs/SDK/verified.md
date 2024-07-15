@@ -27,7 +27,7 @@ String md5 = DigestUtils.md5DigestAsHex(content.getBytes());
 
 ## 参考案例
 
-http://www.233leyuan.com/apiserv/intermodal/nppa/getPi?cpid={cpid}&appKey={appKey}&gid={gid}&userId={userId}&digest={digest}
+http://www.233leyuan.com/apiserv/intermodal/nppa/getPi?cpid={cpid}&appKey={appKey}&userId={userId}&digest={digest}
 
 ## 接口返回示例
 
