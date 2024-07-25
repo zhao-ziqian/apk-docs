@@ -196,6 +196,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
         items: [
           { text: '平台隐私政策', link: '/protocol/平台隐私政策.md' },
           { text: '开发者服务协议', link: '/protocol/开发者服务协议.md' },
+{ text: '开发者广告合作须知', link: '/protocol/开发者广告合作须知.md' },
           { text: '安全评估报告', link: '/protocol/安全评估报告.md' },
           {
             text: '开发者隐私合规指南',
