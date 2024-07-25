@@ -41,7 +41,7 @@
 
 ### 导入aar包
 
-下载[mpg-pay-v3.2.4.zip](https://cdn.233xyx.com/online/2nboLXaYiM121718680277834.zip)解压并将**mpg-pay-\*.aar**复制到您项目Project/app/libs文件夹下。
+下载[mpg-pay-v3.2.4.zip](https://cdn.233xyx.com/online/BxTuI5M4YY3z1721647328667.zip)解压并将**mpg-pay-\*.aar**复制到您项目Project/app/libs文件夹下。
 
 在您app的build.gradle中添加：
 
