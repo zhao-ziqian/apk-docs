@@ -4,7 +4,7 @@
 
 ### 申请流程
 
-第一步，进入[合同管理](https://test-prod-dev-dev-v2-admin.233nan.cn/#/admin/contract-manage)页面，点击【申请协议】
+第一步，进入[合同管理](https://dev.233leyuan.com/#/admin/contract-manage)页面，点击【申请协议】
 
 ![img](https://arkimg.ark.online/(null)-20240802184402994.png)
 
