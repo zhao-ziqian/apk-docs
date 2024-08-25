@@ -1,6 +1,10 @@
 # 联运游戏创建
 
-![img](https://arkimg.ark.online/(null)-20240520170426109.png)
+![1280X1280](https://arkimg.ark.online/1280X1280-4574194.JPEG)
+
+::: danger 注意
+若平台已有预约游戏，可联系运营认领防止预约用户流失
+:::
 
 ## 游戏创建
 

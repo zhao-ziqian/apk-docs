@@ -40,7 +40,7 @@
 
 ### SDK集成
 
-下载[mpg-cm-v1.0.7.zip](https://cdn.233xyx.com/online/X3WuQgxt8jAh1721647292751.zip)解压并将mpg-cm-v1.0.7.aar文件复制到您项目Project/app/libs文件夹下。
+下载[广告SDK](https://qn-cdn.233leyuan.com/online/5sar74h2kQlk1724308073642.zip)解压并将mpg-cm-v1.0.7.aar文件复制到您项目Project/app/libs文件夹下。
 
 在您app的build.gradle中添加：
 

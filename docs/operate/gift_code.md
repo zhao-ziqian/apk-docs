@@ -29,8 +29,10 @@
 ![img](https://arkimg.ark.online/(null)-20240520170547661.png)
 
 ::: danger 注意
-游戏需要已经上线到乐园
+详情页普发礼包配置完需要额外提交福利详情页审核才能正常外显
 :::
+
+礼包和详情页配置的审核可以同时提交
 
 ![img](https://arkimg.ark.online/(null)-20240520170547643.png)
 

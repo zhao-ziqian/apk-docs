@@ -35,6 +35,12 @@
 
 SDK 接入完毕后，请先使用SDK包内的**自测工具**进行自测试，确保游戏能够正常登陆，充值后道具能正常到账，无大面积影响用户体验的广告遮挡。
 
+[64位233乐园测试工具下载地址](https://www.233leyuan.com/apiserv/api/deliveryTest/ABTest?id=kfz64)
+
+[32位233乐园测试工具下载地址](https://www.233leyuan.com/apiserv/api/deliveryTest/ABTest?id=kfz)
+
+[查看自测工具使用说明](https://doc.233leyuan.com/operate/test_tools.html)
+
 **SDK自测方法：**
 
 将正式服自测工具与接入联运SDK的游戏安装到手机上，打开自测工具，输入你要拉起的包名（最好是复制，不要手动输入，出现错误代码3即为包名有空格或错误），点击“拉起”按钮就可以进入233的环境。

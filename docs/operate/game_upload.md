@@ -4,6 +4,12 @@
 
 游戏上传前需要用自测工具拉起自测
 
+[64位233乐园测试工具下载地址](https://www.233leyuan.com/apiserv/api/deliveryTest/ABTest?id=kfz64)
+
+[32位233乐园测试工具下载地址](https://www.233leyuan.com/apiserv/api/deliveryTest/ABTest?id=kfz)
+
+[查看自测工具使用说明](https://doc.233leyuan.com/operate/test_tools.html)
+
 ### 游戏上传
 
 开发者平台【我的游戏】中，点击需要上传的游戏，进入游戏总览界面；

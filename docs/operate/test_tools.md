@@ -4,23 +4,26 @@
 
 ## 自测工具下载
 
-进入开发者后台，右上角点击工具图标，选择下载64位&32位插件自测工具或32位&64位插件自测工具。
+开发者后台-右上角工具图标，下载64位&32位插件自测工具或32位&64位插件自测工具。
 
-![img](https://arkimg.ark.online/(null)-20240527172734833.png)
+[64位233乐园测试工具下载地址](https://www.233leyuan.com/apiserv/api/deliveryTest/ABTest?id=kfz64)  [32位233乐园测试工具下载地址](https://www.233leyuan.com/apiserv/api/deliveryTest/ABTest?id=kfz)
 
-![img](https://arkimg.ark.online/(null)-20240527172734903.png)
+> 目前233乐园64为环境为主，游戏自测请优先确保64为233乐园正常运行。
+
+![CleanShot 2024-08-25 at 16.36.13](https://arkimg.ark.online/CleanShot%202024-08-25%20at%2016.36.13.png)
 
 ## 自测工具使用操作
 
 1. 确保测试游戏有安装到本机内
-2. 安装测试工具
-3. 打开自测工具，登录账号
+> 测试时请使用手机真机测试，请勿使用模拟器测试。
+
+2. 打开安装后的测试工具，登录账号
 
 ### 测试64位环境
 
 1. 点击联运自测工具
 
-![img](https://arkimg.ark.online/(null)-20240527172734888.png)
+![output (1)](https://arkimg.ark.online/output%20(1).png)
 
 2. 输入安装游戏的包名后点击加载（点击清除后跳到应用详情，清除缓存可以将之前自测工具内安装的游戏包清除）
 
@@ -34,9 +37,9 @@
 
 1. 点击32位助手自测工具
 
-![img](https://arkimg.ark.online/(null)-20240527172734989.png)
+![output](https://arkimg.ark.online/output.png)
 
-2. 输入安装游戏的包名点击加载，首次安装需要先安装233乐园64位助手
+2. 输入安装游戏的包名点击加载，首次安装需要先安装233乐园32位助手
 
 ![img](https://arkimg.ark.online/(null)-20240527172734969.png)
 
