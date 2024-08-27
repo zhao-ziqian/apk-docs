@@ -1,13 +1,5 @@
 # 【开发者后台】社区板块说明
 
-:::tip
-
-**后台正式地址：[社区开发者后台](https://dev.233leyuan.com/#/login)**
-
-**后台基础操作教学：[开发者平台指引](https://doc.233leyuan.com/operate/prepare_materials.html)**
-
-:::
-
 # 一、版主号&游戏圈创建
 
 :::tip
