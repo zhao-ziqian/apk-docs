@@ -1,4 +1,4 @@
-export default defineConfig({
+export default {
   word: {
     isOpen: true,
     mode: "warn",
@@ -7,4 +7,4 @@ export default defineConfig({
     isOpen: false,
     mode: "warn",
   },
-});
+};
