@@ -18,7 +18,7 @@
 | V3.2.2    | 2024/1/3   | 1. 新增授权登录功能 <br/>2. 增加游戏云存档 <br/>3. 图片库glide升级至4.9 <br/>4. 新增阿里oss依赖 <br/>5. 移除GSON外部依赖 <br/>6. 代码混淆更新 |
 | V3.2.3    | 2024/2/26  | 1. SDK初始化方法参数变更 <br/>2. UI弹窗兼容适配 <br/>3. 代码混淆更新，增加部分代码混淆keep |
 | V3.2.4    | 2024/6/18  | 1. UI机型适配优化 <br/>2. 优化http请求超时 <br/>3. 修复内部bug |
-
+| V3.2.6    | 2024/08/28 | 1. 适配Android 14 |
 ## SDK说明
 
 **SDK开发者：** 北京龙威互动科技有限公司
@@ -41,7 +41,7 @@
 
 ### 导入aar包
 
-下载[内购SDK](https://qn-cdn.233leyuan.com/online/So7uwhPzdsot1724307986097.zip)解压并将**mpg-pay-\*.aar**复制到您项目Project/app/libs文件夹下。
+下载[内购SDK](https://qn-cdn.233leyuan.com/online/ozIAQeInCBY01724824565893.zip)解压并将**mpg-pay-\*.aar**复制到您项目Project/app/libs文件夹下。
 
 在您app的build.gradle中添加：
 
@@ -49,7 +49,7 @@
 dependencies {
     ...
     implementation 'com.android.support:appcompat-v7:28.0.0'
-    implementation files('libs/mpg-pay-v3.2.4.aar')
+    implementation files('libs/mpg-pay-v3.2.6.aar')
     
     //SDK所需的第三方依赖
     implementation 'com.github.bumptech.glide:glide:4.9.0'    
