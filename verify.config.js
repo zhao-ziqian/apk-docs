@@ -1,6 +1,6 @@
 export default {
   word: {
-    isOpen: true,
+    isOpen: false,
     mode: "warn",
   },
   chinese: {
