@@ -155,6 +155,8 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
           { text: '版本更新', link: '/purchase/new_version_update.md' },
           { text: '资源申请', link: '/purchase/general_resources.md' },
  { text: '运营公告配置及推送指南', link: '/operate/Announcement&push.md' },
+ { text: '社区版块说明', link: '/operate/Communitysection.md' },
+ { text: '如何运营管理游戏社区', link: '/operate/CommunityOperations.md' },
           {
             text: '运营活动',
             items: [
