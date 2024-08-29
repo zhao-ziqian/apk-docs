@@ -77,19 +77,17 @@
 
 ## 运营好社区对游戏的帮助
 
-| 事项              | 介绍                                                                                                                                                   | 
-                                                                                                                                                                                                                                                                                                                       |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 公告置顶推送
- | 发布帖子后通过上述公告配置能优先展示在游戏圈顶部方便玩家及时获取相关信息再配合使用公告推送帮助游戏将节点内容快速有效的触达至玩家
-                  | ![](https://qn-cdn.233leyuan.com/online/RddbZrmn33P01724922225322.PNG)![](https://qn-cdn.233leyuan.com/online/7VqbweWG3k811724922283883.png)                                                                                                                                                                                              |
-| 快捷下载          | 当你发布帖子时会自动生成游戏下载插卡，浏览阅读的玩家在对信息内容产生兴趣的同时也能即刻下载游戏
-                                                    | ![](https://qn-cdn.233leyuan.com/online/8PhrpfztlKop1724922318144.PNG)                                                                                                                                                                                                                                                             |
-| 社区推荐          | 优质帖子更容易进入社区推荐，获得更高的曝光及参与度                                                                                                     | ![](https://qn-cdn.233leyuan.com/online/AVhsGASmCgtE1724922367312.png)                                                                                                                                                                                                                                                             |
-| 首页推荐          | 优质帖子同样会在乐园首页推荐展示，从而获得更多的帖子曝光及间接的游戏新增                                                                               | ![](https://qn-cdn.233leyuan.com/online/qIo75dGsfcns1724922419701.PNG)
-                                                                                                                                                                                                                                                        |
-| 乐园激励          | 每月根据发帖率、互动率及多维度参考评审出优质Top10的游戏圈，对该款游戏进行不仅限于（首页合集、精选、排行榜、搜索位、开屏、跑马灯）等核心资源位露出
- | ![](https://qn-cdn.233leyuan.com/online/5tMwP6uRZC8u1724922464484.PNG)![](https://qn-cdn.233leyuan.com/online/hHzYTXEGZx8j1724922508820.PNG)![](https://qn-cdn.233leyuan.com/online/3QHyWMhviDAc1724922540629.jpg)![](https://qn-cdn.233leyuan.com/online/hkYCzBSD1HuG1724922579891.png)![](https://qn-cdn.233leyuan.com/online/v3RGfnUqfS8S1724922615477.PNG) |
+
+| 事项                       | 介绍                                                         |                                                              |
+| -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 公告置顶推送         | 发布帖子后通过上述公告配置能优先展示在游戏圈顶部方便玩家及时获取相关信息再配合使用公告推送帮助游戏将节点内容快速有效的触达至玩家 | <img src="https://qn-cdn.233leyuan.com/online/RddbZrmn33P01724922225322.PNG" alt="img" style="zoom:25%;" /><img src="https://qn-cdn.233leyuan.com/online/7VqbweWG3k811724922283883.png" alt="img" style="zoom:25%;" /> |
+| 快捷下载         | 当你发布帖子时会自动生成游戏下载插卡，浏览阅读的玩家在对信息内容产生兴趣的同时也能即刻下载游戏 | <img src="https://qn-cdn.233leyuan.com/online/8PhrpfztlKop1724922318144.PNG" alt="img" style="zoom:25%;" /> |
+| 社区推荐         | 优质帖子更容易进入社区推荐，获得更高的曝光及参与度 | <img src="https://qn-cdn.233leyuan.com/online/AVhsGASmCgtE1724922367312.png" alt="img" style="zoom:25%;" /> |
+| 首页推荐         | 优质帖子同样会在乐园首页推荐展示，从而获得更多的帖子曝光及间接的游戏新增 | <img src="https://qn-cdn.233leyuan.com/online/qIo75dGsfcns1724922419701.PNG" alt="img" style="zoom:25%;" /> |
+| 乐园激励         | 每月根据发帖率、互动率及多维度参考评审出优质Top10的游戏圈，对该款游戏进行不仅限于（首页合集、精选、排行榜、搜索位、开屏、跑马灯）等核心资源位露出 | <img src="https://qn-cdn.233leyuan.com/online/5tMwP6uRZC8u1724922464484.PNG" alt="img" style="zoom:25%;" /> <img src="https://qn-cdn.233leyuan.com/online/hHzYTXEGZx8j1724922508820.PNG" alt="img" style="zoom:25%;" /> <img src="https://qn-cdn.233leyuan.com/online/hkYCzBSD1HuG1724922579891.png" alt="img" style="zoom:25%;" /> <img src="https://qn-cdn.233leyuan.com/online/v3RGfnUqfS8S1724922615477.PNG" alt="img" style="zoom:25%;" /> |
+
+
+
 
 
 
