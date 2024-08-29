@@ -154,6 +154,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
           { text: '新游上线', link: '/purchase/new_game_online.md' },
           { text: '版本更新', link: '/purchase/new_version_update.md' },
           { text: '资源申请', link: '/purchase/general_resources.md' },
+ { text: '运营公告配置及推送指南', link: '/operate/Announcement&push.md' },
           {
             text: '运营活动',
             items: [
