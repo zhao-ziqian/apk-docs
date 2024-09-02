@@ -157,9 +157,9 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
           {
             text: '运营社区',
             items: [
+              { text: '运营好社区', link: '/operate/CommunityOperations.md' },
               { text: '公告推送', link: '/operate/Announcement&push.md' },
-              { text: '社区版块', link: '/operate/Communitysection.md' },
-              { text: '管理社区', link: '/operate/CommunityOperations.md' }
+              { text: '社区操作', link: '/operate/Communitysection.md' }
             ]
           },
           {

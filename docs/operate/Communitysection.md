@@ -1,6 +1,6 @@
-# 社区后台操作说明
+# 游戏社区操作说明
 
-通过管理自己的游戏社区并与玩家交流，支持以官方身份发布游戏公告、宣传视频、新手引导、攻略向内容等。
+游戏社区支持以官方身份发布游戏公告、宣传视频、新手引导、攻略向内容等。
 
 <img src="https://arkimg.ark.online/1724563444539-2.webp" alt="img" style="zoom: 67%;" />
 
@@ -16,13 +16,13 @@
 
 ## 社区发帖
 
-点击游戏ICON会跳转详细页面，在点击**游戏社区**，可以进行发帖、板块管理、游戏圈简介修改。
-
 <img src="https://arkimg.ark.online/1724563444539-5.webp" alt="img" style="zoom:67%;" />
+
+点击游戏ICON会跳转详细页面，在点击**游戏社区**，可以进行发帖、板块管理、游戏圈简介修改。
 
 <img src="https://arkimg.ark.online/1724563444539-6.webp" alt="img" style="zoom:67%;" />
 
-### 发布帖子
+### 发布官方帖子
 
 点击【我要发帖】后会出现如下界面
 
@@ -36,19 +36,23 @@
 | ---- | ----- |
 | ![](https://arkimg.ark.online/1724563444539-9.webp) | ![img](https://arkimg.ark.online/1724563444539-10.webp) |
 
-### 板块编辑
-
-可修改游戏圈外显的内容分区
+### 维护社区板块
 
 <img src="https://arkimg.ark.online/1724563444539-11.webp" alt="img" style="zoom:100%;" />
 
+点击【游戏社区】-【板块配置】，即可修改游戏圈外显的内容分区
+
 <img src="https://arkimg.ark.online/1724563444540-12.webp" alt="img" style="zoom:100%;" />
+
+游戏分区可以拖拽调整顺序，同时可以任意添加/删除板块分区
 
 <img src="https://arkimg.ark.online/1724563444540-13.webp" alt="img" style="zoom:100%;" />
 
+点击编辑后，可以编辑板块的名称、状态以及发布权限
+
 | 板块选择 | 前端展示 |
 | ---- | ----- |
-| ![](https://arkimg.ark.online/1724563444540-14.webp) | !p[](https://arkimg.ark.online/1724563444540-15.webp) |
+| ![](https://arkimg.ark.online/1724563444540-14.webp) | ![](https://arkimg.ark.online/1724563444540-15.webp) |
 
 
 ## 游戏圈运营
@@ -61,8 +65,9 @@
 
 :::
 
-| 版本/活动前瞻资讯     | [版本内容资讯范例①](https://app-external.233lyly.com/proxy/postdetails/?source=Link&shareId=2C0Y8d7J0FsZ002GS09JCoT39rGvl686IgCp3Ahh&postid=1821006759046967296) | [版本内容资讯范例②](https://app-external.233lyly.com/proxy/postdetails/?source=Link&shareId=2C0ZUCeb0Gw40V02GFShAhj9GRlg68IiRUFbiCWo&postid=1820425652680249344) |
+| 运营内容 | 优秀示例 | 优秀示例 |
 | --------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 版本/活动前瞻资讯     | [版本内容资讯范例①](https://app-external.233lyly.com/proxy/postdetails/?source=Link&shareId=2C0Y8d7J0FsZ002GS09JCoT39rGvl686IgCp3Ahh&postid=1821006759046967296) | [版本内容资讯范例②](https://app-external.233lyly.com/proxy/postdetails/?source=Link&shareId=2C0ZUCeb0Gw40V02GFShAhj9GRlg68IiRUFbiCWo&postid=1820425652680249344) |
 | 版本更新/重要说明公告 | [更新公告范例①](https://app-external.233lyly.com/proxy/postdetails/?source=Link&shareId=2C0aJYie0HL002GRy4N9Gnl68ISFapXmUcayRB46&postid=1824387669681344512) | [更新公告范例②](https://app-external.233lyly.com/proxy/postdetails/?source=Link&shareId=2C0XESY90DP8060k2BGSTYx89Gl6668KoIHEx3Ls&postid=1813156590555922432) |
 | 定期短效期活动        | [话题回帖活动范例](https://app-external.233lyly.com/proxy/postdetails/?source=Link&shareId=2C0ZDRvJ0ERB06072GSFGqXr9EGl658IpGO4E6lX&postid=1810574927152844800) | [话题发帖活动范例](https://app-external.233lyly.com/proxy/postdetails/?source=Link&shareId=2C0VswC50FSL0Q0n2GSHj2wG90Gpl06V8IsEvsGZ&postid=1818466136392671232) |
 | 重大活动              | [H5页面活动范例](https://na.233she.cn/#/activeModal/comprehensive?id=1369&source=5) | [H5页面活动引导帖范例](https://app-external.233lyly.com/proxy/postdetails/?source=Link&shareId=2C0YRJ250HlE0X0T2GSLAn9Glf6a8kIkxL9xuCDw&postid=1823531570382295040) |
@@ -76,17 +81,17 @@ banner、活动说明、活动时间、参与方式、活动规则、注意事�
 
 :::
 
-优秀活动帖子引导示例：[活动范例](https://app-external.233lyly.com/proxy/postdetails/?source=Link&shareId=2C0Wvokn0HIa0V0z2QGpJXxVMW9LGl685KCejKFM&postid=1818466136392671232)
+> 优秀活动帖子引导示例：[活动范例](https://app-external.233lyly.com/proxy/postdetails/?source=Link&shareId=2C0Wvokn0HIa0V0z2QGpJXxVMW9LGl685KCejKFM&postid=1818466136392671232)
 
-1. 头部放置Banner图，需自行设计，需要带上**活动主题+参与方式概述**（范例如下）
+1. **头部放置Banner图**，需自行设计，需要带上**活动主题+参与方式概述**（范例如下）
 
 <img src="https://arkimg.ark.online/1724563444540-16.webp" alt="img" style="zoom: 33%;" />
 
-2. 前言简单说明下活动前言，简单描述+活动引导（范例如下）
+2. **前言简单说明下活动前言**，简单描述+活动引导（范例如下）
 
 ![img](https://arkimg.ark.online/1724563444540-17.webp)
 
-3. 说明基础的活动信息，如“活动时间”、“参与方式”、“活动规则”、“活动奖励”、“注意事项”
+3. **说明基础的活动信息**，如“活动时间”、“参与方式”、“活动规则”、“活动奖励”、“注意事项”
 
 | <img src="https://arkimg.ark.online/1724563444540-18.webp" alt="img" style="zoom:50%;" /> | <img src="https://arkimg.ark.online/1724563444540-19.webp" alt="img" style="zoom:50%;" /> | <img src="https://arkimg.ark.online/1724563444540-20.webp" alt="img" style="zoom:50%;" /> |
 | ----------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
