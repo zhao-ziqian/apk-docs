@@ -1,5 +1,7 @@
 # 社区后台操作说明
 
+通过管理自己的游戏社区并与玩家交流，支持以官方身份发布游戏公告、宣传视频、新手引导、攻略向内容等。
+
 <img src="https://arkimg.ark.online/1724563444539-2.webp" alt="img" style="zoom: 67%;" />
 
 ## 版主号
@@ -26,9 +28,9 @@
 
 | 发帖示例 | 展示示例 |
 | ---- | ----- |
-| <img src="https://arkimg.ark.online/1724563444539-7.webp" alt="img" style="zoom:50%;" /> | <img src="https://arkimg.ark.online/1724563444539-8.webp" alt="img" style="zoom:50%;" /> |
+| ![](https://arkimg.ark.online/1724563444539-7.webp) | ![](https://arkimg.ark.online/1724563444539-8.webp) |
 
-发布后可继续编辑，但建议发布前注意做好检查，查看内容和时间节点是否有问题，避免发布后有问题影响活动效果
+发布后可继续编辑，但建议发布前注意做好检查，查看内容和时间节点是否有问题
 
 | 加粗引导 | 发布类型 |
 | ---- | ----- |
@@ -46,7 +48,7 @@
 
 | 板块选择 | 前端展示 |
 | ---- | ----- |
-| <img src="https://arkimg.ark.online/1724563444540-14.webp" alt="img" style="zoom:50%;" /> | <img src="https://arkimg.ark.online/1724563444540-15.webp" alt="img" style="zoom:50%;" /> |
+| ![](https://arkimg.ark.online/1724563444540-14.webp) | !p[](https://arkimg.ark.online/1724563444540-15.webp) |
 
 
 ## 游戏圈运营
@@ -126,7 +128,7 @@ banner、活动说明、活动时间、参与方式、活动规则、注意事�
 
 <img src="https://arkimg.ark.online/1724563444540-26.webp" alt="img" style="zoom:67%;" />
 
-| 优秀示例 | 优秀示例 |
+| 曝光展示 | 曝光展示 |
 | ---- | ----- |
 | <img src="https://arkimg.ark.online/1724563444540-27.webp" alt="img" style="zoom: 50%;" /> | <img src="https://arkimg.ark.online/1724563444540-28.webp" alt="img" style="zoom:50%;" /> |
 
@@ -136,7 +138,7 @@ banner、活动说明、活动时间、参与方式、活动规则、注意事�
 | ---- | ----- |
 | <img src="https://arkimg.ark.online/1724563444540-29.webp" alt="img" style="zoom:50%;" /> | <img src="https://arkimg.ark.online/1724563444540-30.webp" alt="img" style="zoom:50%;" /> |
 
-**不适合内容处理**
+### 不适内容处理
 
 **私有化**（可使用该功能的标准，主要针对）
 
