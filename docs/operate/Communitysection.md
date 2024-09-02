@@ -1,22 +1,16 @@
 # 社区后台操作说明
 
-## 版主号
-
-### 社区入口
-
 <img src="https://arkimg.ark.online/1724563444539-2.webp" alt="img" style="zoom: 67%;" />
+
+## 版主号
 
 <img src="https://arkimg.ark.online/1724563444539-3.webp" alt="img" style="zoom:67%;" />
 
-:::tip 目前版主号无法自主创建，游戏审核后系统会自动搭建**游戏圈+版主号**
-
-点击已搭建的**游戏ICON-游戏社区**，可进入您所属游戏的游戏圈
-
-:::
+目前版主号无法自主创建，游戏审核后系统会自动搭建**游戏圈+版主号
 
 <img src="https://arkimg.ark.online/1724563444543-33.webp" alt="img" style="zoom:50%;" />
 
-<img src="https://arkimg.ark.online/1724563444539-4.webp" alt="img" style="zoom:67%;" />
+点击已搭建的**游戏ICON-游戏社区**，可进入您所属游戏的游戏圈
 
 ## 社区发帖
 
@@ -28,27 +22,27 @@
 
 ### 发布帖子
 
-点击**【我要发帖】**后会出现如下界面
+点击【我要发帖】后会出现如下界面
 
 | 发帖示例 | 展示示例 |
 | ---- | ----- |
-| <img src="https://arkimg.ark.online/1724563444539-7.webp" alt="img" style="zoom:50%;" /> | <img src="https://arkimg.ark.online/1724563444539-8.webp" alt="img" style="zoom:67%;" /> |
+| <img src="https://arkimg.ark.online/1724563444539-7.webp" alt="img" style="zoom:50%;" /> | <img src="https://arkimg.ark.online/1724563444539-8.webp" alt="img" style="zoom:50%;" /> |
 
 发布后可继续编辑，但建议发布前注意做好检查，查看内容和时间节点是否有问题，避免发布后有问题影响活动效果
 
 | 加粗引导 | 发布类型 |
 | ---- | ----- |
-| <img src="https://arkimg.ark.online/1724563444539-9.webp" alt="img" style="zoom:50%;" /> | ![img](https://arkimg.ark.online/1724563444539-10.webp) |
+| ![](https://arkimg.ark.online/1724563444539-9.webp) | ![img](https://arkimg.ark.online/1724563444539-10.webp) |
 
 ### 板块编辑
 
 可修改游戏圈外显的内容分区
 
-<img src="https://arkimg.ark.online/1724563444539-11.webp" alt="img" style="zoom:67%;" />
+<img src="https://arkimg.ark.online/1724563444539-11.webp" alt="img" style="zoom:100%;" />
 
-<img src="https://arkimg.ark.online/1724563444540-12.webp" alt="img" style="zoom:67%;" />
+<img src="https://arkimg.ark.online/1724563444540-12.webp" alt="img" style="zoom:100%;" />
 
-<img src="https://arkimg.ark.online/1724563444540-13.webp" alt="img" style="zoom:67%;" />
+<img src="https://arkimg.ark.online/1724563444540-13.webp" alt="img" style="zoom:100%;" />
 
 | 板块选择 | 前端展示 |
 | ---- | ----- |
@@ -90,7 +84,7 @@ banner、活动说明、活动时间、参与方式、活动规则、注意事�
 
 ![img](https://arkimg.ark.online/1724563444540-17.webp)
 
-3. 说明基础的活动信息，如“活动时间”、“参与方式”、“活动规则”、“活动奖励”、“注意事项”(范例如下)
+3. 说明基础的活动信息，如“活动时间”、“参与方式”、“活动规则”、“活动奖励”、“注意事项”
 
 | <img src="https://arkimg.ark.online/1724563444540-18.webp" alt="img" style="zoom:50%;" /> | <img src="https://arkimg.ark.online/1724563444540-19.webp" alt="img" style="zoom:50%;" /> | <img src="https://arkimg.ark.online/1724563444540-20.webp" alt="img" style="zoom:50%;" /> |
 | ----------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -114,6 +108,7 @@ banner、活动说明、活动时间、参与方式、活动规则、注意事�
 
 > 尽可能的针对玩家问题进行详细解答，如果玩家表达比较模糊可以引导添加QQ或Q群进一步了解，避免玩家因为游戏体验问题导致对游戏印象降低
 
+| 优秀示例 | 优秀示例 |
 | ---- | ----- |
 | <img src="https://arkimg.ark.online/1724563444540-23.webp" alt="img" style="zoom:50%;" /> | <img src="https://arkimg.ark.online/1724563444540-24.webp" alt="img" style="zoom:50%;" /> |
 
@@ -131,11 +126,13 @@ banner、活动说明、活动时间、参与方式、活动规则、注意事�
 
 <img src="https://arkimg.ark.online/1724563444540-26.webp" alt="img" style="zoom:67%;" />
 
+| 优秀示例 | 优秀示例 |
 | ---- | ----- |
 | <img src="https://arkimg.ark.online/1724563444540-27.webp" alt="img" style="zoom: 50%;" /> | <img src="https://arkimg.ark.online/1724563444540-28.webp" alt="img" style="zoom:50%;" /> |
 
 **鼓励式回复**
 
+| 优秀示例 | 优秀示例 |
 | ---- | ----- |
 | <img src="https://arkimg.ark.online/1724563444540-29.webp" alt="img" style="zoom:50%;" /> | <img src="https://arkimg.ark.online/1724563444540-30.webp" alt="img" style="zoom:50%;" /> |
 

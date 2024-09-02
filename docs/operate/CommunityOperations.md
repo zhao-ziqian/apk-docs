@@ -26,6 +26,7 @@
 
 ![img](https://arkimg.ark.online/1724585172503-13-1724585227190-83.webp)
 
+| 前端展示 | 帖子置顶 |
 | ---- | ----- |
 | <img src="https://arkimg.ark.online/1724585172503-11-1724585227190-81.webp" alt="img" style="zoom:67%;" /> | <img src="https://arkimg.ark.online/1724585172503-12-1724585227190-82.webp" alt="img" style="zoom:33%;" /> |
 
@@ -35,9 +36,11 @@
 
 > 可直接调用对之前已发布的帖子进行游戏详情页置顶展示，输入对应帖子ID和公告展示时间即可，或者选择新建帖子，发布生成一篇全新帖子进行游戏详情页置顶展示
 
+| 使用已有帖子 | 新建帖子 |
 | ---- | ----- |
 | <img src="https://arkimg.ark.online/1724585172503-14-1724585227190-84.webp" alt="img" style="zoom: 67%;" /> | <img src="https://arkimg.ark.online/1724585172503-15-1724585227190-85.webp" alt="img" style="zoom: 25%;" /> |
 
+| 前端展示 | 帖子置顶 |
 | ---- | ----- |
 | <img src="https://arkimg.ark.online/1724585172503-16-1724585227190-86.webp" alt="img" style="zoom:50%;" /> | <img src="https://arkimg.ark.online/1724585172504-17-1724585227190-87.webp" alt="img" style="zoom: 33%;" /> |
 
@@ -67,7 +70,7 @@
 2. 炸服、充值、客诉、长时间无法登录等。
 3. 版本更新引发的 bug、玩法添加 / 变更引发的争论等
 
-::: dabger 在运营游戏论坛时，经常会出现上述舆情问题
+::: danger 在运营游戏论坛时，经常会出现上述舆情问题
 
 我们建议善用社区功能，及时发现问题，直面问题并快速解决问题。
 
