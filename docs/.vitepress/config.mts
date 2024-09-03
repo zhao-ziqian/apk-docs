@@ -55,37 +55,37 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
   ],
   themeConfig: {
     logo: 'https://cdn.233xyx.com/online/dqHT5TsyRrWv1716446116296.png',
-    // algolia: {
-    //   appId: 'I2PHYUBLCN',
-    //   apiKey: '78ac86e74b310228cbab71c6b8a81272',
-    //   indexName: 'docs-apk',
-    //   // indexName: 'api-docs_prodigytech',
-    //   project: {
-    //     active: 'product-docs',
-    //     arr: [
-    //       // {
-    //       //   key: 'api-docs',
-    //       //   facetFilters: ['tags:api-docs'],
-    //       //   name: 'API文档'
-    //       // },
-    //       {
-    //         key: 'product-docs',
-    //         // facetFilters: ['tags:apk-docs'],
-    //         name: '产品手册'
-    //       }
-    //       // {
-    //       //   key: 'learning-docs',
-    //       //   facetFilters: ['tags:learning-docs'],
-    //       //   name: '教程文档'
-    //       // },
-    //       // {
-    //       //   name: '论坛',
-    //       //   url: 'https://forum.ark.online/search.php?searchsubmit=yes&mod=forum&srchtxt='
-    //       // }
-    //     ]
-    //   },
-    //   searchPage: 'https://search.ark.online/#/search'
-    // },
+    algolia: {
+      appId: 'I2PHYUBLCN',
+      apiKey: '78ac86e74b310228cbab71c6b8a81272',
+      indexName: 'docs-apk',
+      // indexName: 'api-docs_prodigytech',
+      project: {
+        active: 'product-docs',
+        arr: [
+          // {
+          //   key: 'api-docs',
+          //   facetFilters: ['tags:api-docs'],
+          //   name: 'API文档'
+          // },
+          // {
+          //   key: 'product-docs',
+          //   facetFilters: ['tags:apk-docs'],
+          //   name: '产品手册'
+          // }
+          // {
+          //   key: 'learning-docs',
+          //   facetFilters: ['tags:learning-docs'],
+          //   name: '教程文档'
+          // },
+          // {
+          //   name: '论坛',
+          //   url: 'https://forum.ark.online/search.php?searchsubmit=yes&mod=forum&srchtxt='
+          // }
+        ]
+      },
+      searchPage: 'https://search.ark.online/#/search'
+    },
     sidebar: [
       { text: '平台指引', link: 'guide.md' },
       {
@@ -196,7 +196,10 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
         items: [
           { text: '平台隐私政策', link: '/protocol/平台隐私政策.md' },
           { text: '开发者服务协议', link: '/protocol/开发者服务协议.md' },
-{ text: '开发者广告合作须知', link: '/protocol/开发者广告合作须知.md' },
+          {
+            text: '开发者广告合作须知',
+            link: '/protocol/开发者广告合作须知.md'
+          },
           { text: '安全评估报告', link: '/protocol/安全评估报告.md' },
           {
             text: '开发者隐私合规指南',
