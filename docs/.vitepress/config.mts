@@ -68,11 +68,11 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
           //   facetFilters: ['tags:api-docs'],
           //   name: 'API文档'
           // },
-          // {
-          //   key: 'product-docs',
-          //   facetFilters: ['tags:apk-docs'],
-          //   name: '产品手册'
-          // }
+          {
+            key: 'product-docs',
+            facetFilters: ['tags:apk-docs'],
+            name: '产品手册'
+          }
           // {
           //   key: 'learning-docs',
           //   facetFilters: ['tags:learning-docs'],
