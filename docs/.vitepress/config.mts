@@ -155,6 +155,14 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
           { text: '版本更新', link: '/purchase/new_version_update.md' },
           { text: '资源申请', link: '/purchase/general_resources.md' },
           {
+            text: '运营社区',
+            items: [
+              { text: '运营好社区', link: '/operate/CommunityOperations.md' },
+              { text: '公告推送', link: '/operate/Announcement&push.md' },
+              { text: '社区操作', link: '/operate/Communitysection.md' }
+            ]
+          },
+          {
             text: '运营活动',
             items: [
               { text: '签到活动', link: '/purchase/check-in_activity.md' },
