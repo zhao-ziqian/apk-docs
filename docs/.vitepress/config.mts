@@ -69,7 +69,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
           //   name: 'API文档'
           // },
           {
-            key: 'product-docs',
+            key: 'apk-docs',
             facetFilters: ['tags:apk-docs'],
             name: '产品手册'
           }
