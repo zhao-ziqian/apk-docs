@@ -61,7 +61,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
       indexName: 'docs-apk',
       // indexName: 'api-docs_prodigytech',
       project: {
-        active: 'product-docs',
+        active: 'apk-docs',
         arr: [
           // {
           //   key: 'api-docs',
@@ -70,7 +70,6 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
           // },
           {
             key: 'apk-docs',
-            facetFilters: ['tags:apk-docs'],
             name: '产品手册'
           }
           // {
