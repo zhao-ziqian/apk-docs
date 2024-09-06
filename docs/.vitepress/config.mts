@@ -62,6 +62,8 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
       // indexName: 'api-docs_prodigytech',
       project: {
         active: 'apk-docs',
+        isShowAllSearch: false,
+        isShowTab: false,
         arr: [
           // {
           //   key: 'api-docs',

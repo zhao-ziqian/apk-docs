@@ -1834,10 +1834,10 @@ digest-header@^1.0.0:
   dependencies:
     utility "^1.17.0"
 
-doc-theme-323@^2.1.23:
-  version "2.1.23"
-  resolved "https://registry.npmjs.org/doc-theme-323/-/doc-theme-323-2.1.23.tgz#bf003502e7a40190ef11acb2c35dacc65ed22391"
-  integrity sha512-wAyYUvm3M4E7Li45jUj0T8NhvWRBEwtnYyVnDknjOziCBrPAarMR/kn2yI9pPKu2oHpYOwuJUvgSzt7i7QA1YA==
+doc-theme-323@^2.1.24:
+  version "2.1.24"
+  resolved "https://registry.npmjs.org/doc-theme-323/-/doc-theme-323-2.1.24.tgz#00c8fbacc460009bf6f027e7463b919545724c14"
+  integrity sha512-WUJt8b8xtgNqlGV3D/TuDElQDYT59UqtjNIhO6Y8uVi6dAKOJKv5sxQn2bb6q6uAysQiBQpoDPr9XOssJEEC2Q==
   dependencies:
     "@docsearch/css" "^3.3.0"
     "@docsearch/js" "^3.3.0"
@@ -1846,7 +1846,7 @@ doc-theme-323@^2.1.23:
     "@vueuse/core" "^9.8.2"
     body-scroll-lock "4.0.0-beta.0"
     detect-browser "^5.3.0"
-    docsearch-react-234 "^4.3.25"
+    docsearch-react-234 "^4.3.26"
     sass "^1.67.0"
     shiki "^0.12.1"
     viewerjs "^1.11.3"
@@ -1854,10 +1854,10 @@ doc-theme-323@^2.1.23:
     vitepress-plugin-codeblocks-fold "^1.2.28"
     vue "^3.2.45"
 
-docsearch-react-234@^4.3.25:
-  version "4.3.25"
-  resolved "https://registry.npmmirror.com/docsearch-react-234/-/docsearch-react-234-4.3.25.tgz#e8efed636e1a2e617a6ba7477f4df8ac17295d63"
-  integrity sha512-D5z+xO81khZtGQVSjXaMETmFXXdgFmUITYfFuxn3Z0EwLUEuRTVRf6E4Y6NFn8BAJKyf4a0YuMSQOY0f8OdIlQ==
+docsearch-react-234@^4.3.26:
+  version "4.3.26"
+  resolved "https://registry.npmjs.org/docsearch-react-234/-/docsearch-react-234-4.3.26.tgz#06e1fd51bd9fff0b61922ab38bbabc9b9c0367cd"
+  integrity sha512-YcYFi6a+KQACLI9hgxRaacEuolAibuYZSAoYRiBoBj7kWFCr2pMiRapVfF/ifmG4OhiB+g+YkvuboW2kqxDvEQ==
   dependencies:
     "@algolia/autocomplete-core" "1.8.2"
     "@algolia/autocomplete-preset-algolia" "1.8.2"
