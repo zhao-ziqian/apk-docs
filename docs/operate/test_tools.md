@@ -8,7 +8,7 @@
 
 [64位233乐园测试工具下载地址](https://www.233leyuan.com/apiserv/api/deliveryTest/ABTest?id=kfz64)  [32位233乐园测试工具下载地址](https://www.233leyuan.com/apiserv/api/deliveryTest/ABTest?id=kfz)
 
-> 目前233乐园64为环境为主，游戏自测请优先确保64为233乐园正常运行。
+> 目前233乐园64位环境为主，游戏自测请优先确保64位233乐园正常运行。
 
 ![CleanShot 2024-08-25 at 16.36.13](https://arkimg.ark.online/CleanShot%202024-08-25%20at%2016.36.13.png)
 
