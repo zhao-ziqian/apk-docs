@@ -10,9 +10,9 @@
 
 | 需求           | 尺寸、大小                                                   | 格式 | 样图                                                         | 线上效果                                                     |
 | -------------- | ------------------------------------------------------------ | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 活动头图       | 720*430px需要带有活动标题和游戏名字                          | JPG  | ![img](https://arkimg.ark.online/(null)-20240520172559385.png) | ![img](https://arkimg.ark.online/(null)-20240520172602392.png) |
-| 活动外显缩略图 | 320*176px，同上图                                            | JPG  | ![img](https://arkimg.ark.online/(null)-20240520172601324.png) |                                                              |
-| 精选页外显图   | 640*320px，同上图                                            | JPG  | ![img](https://arkimg.ark.online/(null)-20240520172602289.png) | ![img](https://arkimg.ark.online/(null)-20240520172603436.png) |
+| 活动头图       | 720*430px，需要带有活动标题和游戏名字。为了提高转化效果，文案需要提及具体奖励内容，避免使用好礼、独家礼包、福利、好礼、豪礼这种概括性的词。                          | JPG  | ![img](https://qn-cdn.233leyuan.com/athena/online/bb8d85d27ad74fd08d7b65b75ac561c6_377928760.webp) | ![img](https://arkimg.ark.online/(null)-20240520172602392.png) |
+| 活动外显缩略图 | 320*176px，同上图                                            | JPG  | ![img](https://qn-cdn.233leyuan.com/athena/online/bb8d85d27ad74fd08d7b65b75ac561c6_377928760.webp) |                                                              |
+| 精选页外显图   | 640*320px，同上图                                            | JPG  | ![img](https://qn-cdn.233leyuan.com/athena/online/bb8d85d27ad74fd08d7b65b75ac561c6_377928760.webp) | ![img](https://arkimg.ark.online/(null)-20240520172603436.png) |
 | 奖品（礼包）图 | 1:1大小 建议144*144px有几档奖励就需要提供几个图。若一个礼包内有多个道具，可以做成道具集合的样式 | PNG  | ![img](https://arkimg.ark.online/(null)-20240520172558544.png) |                                                              |
 | 礼包说明       | 需要有礼包兑换方式、礼包内容、礼包有效期                     | TXT  | ![img](https://arkimg.ark.online/(null)-20240520172558845.png) |                                                              |
 | 礼包码         | 第一行需要写上文字“兑换码”后台会将第一行文字吞掉             | CSV  | ![img](https://arkimg.ark.online/(null)-20240520172559012.png) |                                                              |
