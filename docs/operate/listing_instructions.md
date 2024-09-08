@@ -188,3 +188,9 @@
 **未成年人登录弹窗：**
 
 ![img](https://arkimg.ark.online/(null)-20240520170407807.png)
+
+## 敏感词库
+
+游戏内玩家昵称、聊天系统等功能需要配备屏蔽词库，未添加或添加不全的游戏无法通过审核
+
+参考词库：[词库](https://qn-cdn.233leyuan.com/online/abjofJshMqMo1725763480940.zip)
