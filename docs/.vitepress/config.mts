@@ -118,6 +118,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
           { text: '游戏认领', link: '/operate/game_claim.md' },
           { text: '新游预约', link: '/operate/game_reservation.md' },
           { text: '游戏礼包', link: '/operate/gift_code.md' },
+{ text: '游戏活动', link: '/operate/game_activity.md' },
           { text: '合同签约', link: '/operate/contract_signing.md' },
           { text: '兼容适配', link: '/operate/compatible.md' }
         ]
