@@ -41,7 +41,7 @@
 
 ### 导入aar包
 
-下载[内购SDK](https://qn-cdn.233leyuan.com/online/So7uwhPzdsot1724307986097.zip)解压并将**mpg-pay-\*.aar**复制到您项目Project/app/libs文件夹下。
+下载[内购SDK](https://qn-cdn.233leyuan.com/online/ozIAQeInCBY01724824565893.zip)解压并将**mpg-pay-\*.aar**复制到您项目Project/app/libs文件夹下。
 
 在您app的build.gradle中添加：
 
