@@ -297,7 +297,6 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
         'https://github.com/doc-ark-online/apk-docs/tree/main/docs/:path',
       text: '编辑'
     },
-    feedback: 'https://github.com/doc-ark-online/apk-docs/',
     lastUpdatedText: 'Updated Date',
     docFooter: {
       prev: 'Pagina prior',
