@@ -95,7 +95,8 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
         collapsed: true,
         items: [
           { text: '企业认证', link: '/operate/enterprise_certification.md' },
-          { text: '认证材料', link: '/operate/prepare_materials.md' }
+          { text: '认证材料', link: '/operate/prepare_materials.md' },
+          { text: '权限管理', link: '/operate/authority_management.md' }
         ]
       },
       {
