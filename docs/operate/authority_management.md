@@ -3,21 +3,6 @@
 ::: tip 阅读本文大概需要10分钟
 本文将帮助您上手绑定/解绑233号，邀请233用户进行团队协作，管理团队成员。
 ::: 
-## 绑定233号
-233开发者账号可与**1个**233乐园账号进行绑定，绑定后可使用233乐园授权登录，与使用开发者账号登录的权限、效果完全一致。
-
-::: warning 谨慎绑定！
-请不要绑定不信任的233乐园账号，否则可能造成游戏资源丢失和财产损失！！！
-:::
-
-下面是在233开发者平台绑定233乐园账号的详细步骤：
-| 描述  | 截图 | 
-| ----- | ----- | 
-| 点击【个人中心】，滑动到【绑定账号】板块，点击233乐园对应的绑定按钮 |  ![image](https://qn-cdn.233leyuan.com/athena/online/fbdb9317d4774ae9bee02525c7b79c49_404991586.webp) | 
-|使用233乐园扫码，点击【授权登录】 | ![image](https://qn-cdn.233leyuan.com/athena/online/a8fa154723f74099a16f2cc995b4ddf3_404991587.webp) | 
-| 确认账号信息，点击【下一步】 | ![image](https://qn-cdn.233leyuan.com/athena/online/3c53d3145f0849d1b0ac0d5b73963bdd_404991588.webp) | 
-| 点击【发送验证码】，输入正确验证码，完整账号绑定 | ![image](https://qn-cdn.233leyuan.com/athena/online/a5b7b2e91132456eb230bff2ee460215_404991589.webp) | 
-| 点击【解绑】按钮，点击【发送验证码】，输入正确验证码，完成账号解绑 | ![image](https://qn-cdn.233leyuan.com/athena/online/b244749799b349c3bb4f9186ef7c3cb3_404991590.webp) | 
 
 ## 团队协作
 您可以邀请其他的233用户作为团队协作者登录您的开发者账号，并为其分配财务、运营、发版等不同角色权限，共同经营游戏
@@ -48,3 +33,19 @@
 | 登录时选择其他登录方式，点击233乐园，拉起233登录页面 | ![image](https://qn-cdn.233leyuan.com/athena/online/e33b511e1a1441b1bf54553403e32c15_404991596.webp) |
 | 登录成功后，若可登录多个账号，会显示该233号可登录的全部开发者账号，其中绑定账号将附带“我的”标识 | ![image](https://qn-cdn.233leyuan.com/athena/online/444b3f517ae243b7bff8f79fad398555_404991597.webp) | 
 | 登录成功后，还可点击右上角图标，切换账号 | ![image](https://qn-cdn.233leyuan.com/athena/online/6052e8b6ad0c4e2c8ca3cd4cf7f22814_404991598.webp) |
+
+## 绑定233号
+233开发者账号可与**1个**233乐园账号进行绑定，绑定后可使用233乐园授权登录，与使用开发者账号登录的权限、效果完全一致。
+
+::: warning 谨慎绑定！
+请不要绑定不信任的233乐园账号，否则可能造成游戏资源丢失和财产损失！！！
+:::
+
+下面是在233开发者平台绑定233乐园账号的详细步骤：
+| 描述  | 截图 | 
+| ----- | ----- | 
+| 点击【个人中心】，滑动到【绑定账号】板块，点击233乐园对应的绑定按钮 |  ![image](https://qn-cdn.233leyuan.com/athena/online/fbdb9317d4774ae9bee02525c7b79c49_404991586.webp) | 
+|使用233乐园扫码，点击【授权登录】 | ![image](https://qn-cdn.233leyuan.com/athena/online/a8fa154723f74099a16f2cc995b4ddf3_404991587.webp) | 
+| 确认账号信息，点击【下一步】 | ![image](https://qn-cdn.233leyuan.com/athena/online/3c53d3145f0849d1b0ac0d5b73963bdd_404991588.webp) | 
+| 点击【发送验证码】，输入正确验证码，完整账号绑定 | ![image](https://qn-cdn.233leyuan.com/athena/online/a5b7b2e91132456eb230bff2ee460215_404991589.webp) | 
+| 点击【解绑】按钮，点击【发送验证码】，输入正确验证码，完成账号解绑 | ![image](https://qn-cdn.233leyuan.com/athena/online/b244749799b349c3bb4f9186ef7c3cb3_404991590.webp) | 
