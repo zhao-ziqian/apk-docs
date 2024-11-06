@@ -47,8 +47,6 @@
 1. 对于审核中礼包，如有问题可以点击操作列的【撤回审核】后，再次【编辑】后提交
 2. 审核通过已投入福利/活动中使用的礼包，可以关注下【领取数量/库存数量】列，如库存不足，点击操作列的【补充库存】上传兑换码进行补充
 
-![img](https://meta.feishu.cn/space/api/box/stream/download/asynccode/?code=MWI0ODJjMTgwNTZjN2EwNDgwNWU3MWQ2NTM2YTcxOGVfOFc2NmxEa0Q4bVo2NlFGNDdONWt3M2UzSG9DamR2MWZfVG9rZW46UDVKVmJCZXdLb25YNHB4ZjdtM2Nrb1dGbjBlXzE3MzA4NzkwMzE6MTczMDg4MjYzMV9WNA)
-
 ## 福利配置
 
 ### 创建福利
