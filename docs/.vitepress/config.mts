@@ -118,7 +118,9 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
           { text: '游戏上传', link: '/operate/game_upload.md' },
           { text: '游戏认领', link: '/operate/game_claim.md' },
           { text: '新游预约', link: '/operate/game_reservation.md' },
-          { text: '游戏礼包', link: '/operate/gift_code.md' },
+          { text: '公告推送', link: '/operate/Announcement&push.md' },
+          { text: '福利礼包', link: '/operate/gift_code.md' },
+          { text: '游戏活动', link: '/operate/game_activity.md' },
           { text: '合同签约', link: '/operate/contract_signing.md' },
           { text: '兼容适配', link: '/operate/compatible.md' }
         ]
@@ -160,7 +162,6 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
             text: '运营社区',
             items: [
               { text: '运营好社区', link: '/operate/CommunityOperations.md' },
-              { text: '公告推送', link: '/operate/Announcement&push.md' },
               { text: '社区操作', link: '/operate/Communitysection.md' }
             ]
           },
