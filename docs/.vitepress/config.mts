@@ -122,7 +122,8 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
           { text: '福利礼包', link: '/operate/gift_code.md' },
           { text: '游戏活动', link: '/operate/game_activity.md' },
           { text: '合同签约', link: '/operate/contract_signing.md' },
-          { text: '兼容适配', link: '/operate/compatible.md' }
+          { text: '兼容适配', link: '/operate/compatible.md' },
+          { text: '233乐园审核标准规范', link: '/operate/audit_standard.md' }
         ]
       },
       {
