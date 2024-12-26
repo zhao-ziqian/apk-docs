@@ -119,6 +119,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
           { text: '游戏认领', link: '/operate/game_claim.md' },
           { text: '新游预约', link: '/operate/game_reservation.md' },
           { text: '公告推送', link: '/operate/Announcement&push.md' },
+          { text: '礼包管理', link: '/purchase/gift_pack.md' },
           { text: '福利礼包', link: '/operate/gift_code.md' },
           { text: '游戏活动', link: '/operate/game_activity.md' },
           { text: '合同签约', link: '/operate/contract_signing.md' },
@@ -173,7 +174,6 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
               { text: '综合活动', link: '/purchase/comprehensive_activity.md' },
               { text: '代金券', link: '/purchase/voucher.md' },
               { text: '社区活动', link: '/purchase/community_activity.md' },
-              { text: '礼包功能', link: '/purchase/gift_pack.md' },
               { text: '申请活动', link: '/purchase/event_application.md' },
               { text: '预约活动', link: '/purchase/event_reservation.md' }
             ]
