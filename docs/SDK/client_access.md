@@ -22,6 +22,7 @@
 | V3.2.7    | 2024/12/15 | 1.优化手机安装账号注册流程 <br/>2.个别机型录屏功能问题修复 |
 | V3.2.9    | 2025/02/18 | 1.修复支付折扣优惠券计算问题 <br/>2.修复个别机型屏幕适配问题 |
 | V3.2.10    | 2025/02/28 |  合规优化，移除无用权限和数据 |
+| V3.2.11    | 2025/02/28 |  1.合规优化，移除无用权限和数据 <br/>2.SDK服务异常时增加弹窗提示<br/>3.剥离内嵌支付宝SDK代码依赖，转换为外部依赖|
 
 ## SDK说明
 
@@ -45,7 +46,7 @@
 
 ### 导入aar包
 
-下载[内购SDK](https://release.233leyuan.com/online/vsHUIzM8PRmk1740724482947.zip)解压并将**mpg-pay-\*.aar**复制到您项目Project/app/libs文件夹下。
+下载[内购SDK](https://release.233leyuan.com/online/KmsTF43Edspf1741318423761.zip)解压并将**mpg-pay-\*.aar**复制到您项目Project/app/libs文件夹下。
 
 在您app的build.gradle中添加：
 
@@ -53,11 +54,11 @@
 dependencies {
     ...
     implementation 'com.android.support:appcompat-v7:28.0.0'
-    implementation files('libs/mpg-pay-v3.2.9.aar')
+    implementation files('libs/mpg-pay-v3.2.11.aar')
     
     //SDK所需的第三方依赖
-    implementation 'com.github.bumptech.glide:glide:4.9.0'    
-   // implementation 'com.aliyun.dpa:oss-android-sdk:+'  //3.2.7后移除改配置，不需要再添加
+    implementation 'com.github.bumptech.glide:glide:4.9.0'     
+    implementation 'com.alipay.sdk:alipaysdk-android:+@aar' // 支付宝sdk依赖 3.2.11以上版本必须添加
 }
 ```
 
