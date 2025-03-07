@@ -125,7 +125,7 @@ CP对接233平台交易时序图【重客户端】
 游戏方需要按照以下格式返回结果给平台，平台会根据对应的code做不同的处理。
 
 ::: danger 重要提示
-服务端接收回调请求后，请务必校验金额，确保收到的与物品金额一致，防止游戏金额被篡改导致损失或数据异常，确保游戏资产安全。
+服务端接收回调请求后，请务必校验金额，确保收到的金额与实际物品金额一致，防止游戏金额被篡改导致损失或数据异常，确保游戏资产安全。
 :::
 
 ```json
@@ -148,58 +148,7 @@ CP对接233平台交易时序图【重客户端】
 > PS: 当游戏服务端返回非200给平台，平台会按照`斐波那契的数列间隔`向游戏服务重试请求
 
 
-
-### V1版本接入（废弃）
-
-**接口说明：** 充值回调接口，V1接口已废弃
-
-**接收方：** 由CP在233开发者平台配置发货地址 和 选择接入版本【V2】
-
-**请求方式：**  POST
-
-**Content-Type:**  APPLICATION/JSON
-
-**接口安全类型：** SHA1接口参数验签
-```json
-{
-"resultCode"        :   String,
-"resultDesc"        :   String,
-"orderId"           :   String,
-"orderAmount"       :   unsigned int,
-"orderProductCode"  :   String,
-"voucherAmount"     :   unsigned int,
-"voucherType"       :   int,
-"voucherId"         :   String,
-"cpExtra"           :   String,
-}
  
- 数据项解释：
-- resultCode        @NotNull        订单交易结果编码； "SUCCESS" ，常量， SUCCESS 标识订单付款完成；
-- resultDesc        @NotNull        订单结果描述，"OK"；常量；
-- orderId           @NotNull        CP交易系统订单编号（由CP方订单系统产生的唯一性订单编号），CP应保证在其系统中的唯一性，订单编号不能重复，如果重复，会对后续订单查询等接口造成不可逆影响，平台与CP也无法根据订单明细进行对账；
-- orderAmount       @NotNull        订单实际支付金额，（单位：分【人民币】）
-- orderProductCode  @NotNull        商品编号（供应商下单时提供）
-- voucherAmount     @NotNull        优惠券抵扣金额（因优惠券而优惠的金额），（单位：分【人民币】），当优惠券金额 > 0时，标识该笔交易使用了优惠券优惠了的金额，为0时标识并未使用优惠券；
-- voucherType       @NotNull        代金券类型（接入方可忽略该字段类型解释），当未使用优惠券时，会有默认值0；
-- voucherId         @Nullable       当该笔交易使用优惠券时，才会有值，
-- cpExtra           @Nullable       由供应商预下单时传入扩展透传参数，原封不动给到供应商系统，当CP交易系统下单未提供扩展字段时，该字段为空
-```
-
-**游戏方响应值**
-
-HTTP 状态码必须为200，Content-Type: APPLICATION/JSON
-
-CP 需要给出准确的如下响应内容233平台才认为CP发货成功，否则还会继续重试发货回调；
-`当CP返回明确响应内容体后，233平台会将订单流程处理完成，不会再进行发货接口回调，请接入方确认货物已经发送成功了，再给出准确的响应内容，发货流程响应CP自己处理幂等性（针对该笔订单）`
-
-```json
-{
-"code"      :   int, //响应状态码，200:对接成功，其它标识失败；
-"cpRewarded":   int //发货业务码; 1 : CP成功发货； 0:CP无法发货（例如因为无库存、商品下架等原因，明确指出该笔订单无法履约【233平台会立刻给用户退款，并取消该笔订单】）
-} 
-```
- 
-
 
 ## 订单查询接口
  
@@ -235,6 +184,10 @@ CP对接233开放平台接口有一套标准接口协议【只对接B端CP的服
 
 ::: danger 注意
 两个参数不能同时为空或空字符串！必须有一个有值，如果同时传入，优先使用tradeNo【不会再使用cpOrderId，就算对应的tradeNo的订单数据不存在，也不会使用cpOrderId尝试获取数据】
+:::
+
+::: danger 重要提示
+订单查询成功后，请务必校验金额，确保支付的金额与实际物品金额一致，防止游戏金额被篡改导致损失或数据异常，确保游戏资产安全。
 :::
 
 **响应数据：**  
@@ -274,60 +227,4 @@ CP对接233开放平台接口有一套标准接口协议【只对接B端CP的服
 | couponDeductAmount | Y | 优惠券抵扣金额（单位：分【人民币】），当该笔交易未使用优惠券时，该字段为空       |
 | extra | Y | 由供应商预下单时传入扩展透传参数，原封不动给到供应商系统，当CP交易系统下单未提供扩展字段时，该字段为空       |
 | createTime  | N | 233平台订单创建时间（时间戳【毫秒】）时区：北京时区（东八区）  |
-
-### V1版本【废弃】 
-
-**接口地址:** `https://www.233xyx.com/apiserv/api/intermodal/queryCpOrder`
-
-**请求方式:** `GET`
-
-**请求参数:**
-
-```json
-"cpOrderId"  :  String
-```
-
-**参数说明：**
-
-`cpOrderId` 供应商交易订单id（由供应商下单后出传入）
-> 不推荐使用，只是对老系统兼容，当CP无法保证其cpOrderId在CP交易系统中的唯一性时，会出现查询的交易数据非预期的目标数据
-
-::: danger 注意
-该版本接口因为无约束CP的交易系统的订单号唯一性和部分数据安全协议，会导致接入方（CP）查询判断交易数据不准确性和较大数据安全风险；
-故强烈推荐不使用该版本，应升级到V2版本保证数据安全和低风险性；
-后期233平台提供的openApi交易接口也都会要求CP提供tradeNo作为交易订单号的要求【该接口并不能提供tradeNo给CP】；
-:::
-
-**响应数据：**
-
-```json
-{
-    "return_code"           :           int, //状态码，200：正常，其它均为异常； 
-    "return_msg"            :           String, //查询操作返回信息     
-    "data"  :{
-        "resultCode"            :           String,
-        "resultDesc"            :           String,
-        "orderId"               :           String,
-        "orderAmount"           :           unsigned int,
-        "orderProductCode"      :           String,
-        "voucherAmount"         :           unsigned int,
-        "voucherType"           :           int,
-        "voucherId"             :           String,
-        "cpExtra"               :           String
-    }
-} 
-
-```
-
-**data字段说明**
-| 字段 | 是否为空 | 描述 |
-| ---- | :----: | ---- |    
-| resultCode | N | 订单付款状态编码【多个常量】； "SUCCESS" 、"PAYING"、"FAIL"等等， SUCCESS 标识订单付款完成，其它状态标识订单未付完款；     |
-| resultDesc | N | 订单付款状态语义解释；      |
-| orderId | Y | 供应商交易订单id（由供应商下单后出传入），当订单存在时，该字段@NotNull(不会为空)      |
-| orderAmount | Y | 订单实际支付金额（单位：分【人民币】）;   当订单存在时，该字段@NotNull(不会为空)      |
-| orderProductCode | Y |  商品编号（供应商下单时提供）              当订单存在时，该字段@NotNull(不会为空)      |
-| voucherAmount    | Y |  优惠券抵扣金额（因优惠券而优惠的金额）（单位：分【人民币】）;     当订单存在时，该字段@NotNull(不会为空)，当优惠券金额 &gt; 0时，标识该笔交易使用了优惠券优惠了的金额，为0时标识并未使用优惠券；      |
-| voucherType | Y | 代金券类型（接入方可忽略该字段类型解释），当未使用优惠券时，会有默认值0；      |
-| voucherId   | Y | 当该笔交易使用优惠券时，才会有值，      |
-| cpExtra | Y | 由供应商预下单时传入扩展透传参数，原封不动给到供应商系统，当CP交易系统下单未提供扩展字段时，该字段为空 |
+ 
